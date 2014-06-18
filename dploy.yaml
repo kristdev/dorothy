@@ -1,0 +1,8 @@
+dorothy_production:
+    host: 				ftp.kristdev.com
+    user: 				kristdev
+    pass: 				temporary@43321
+    check: 				true
+    exclude: 			["dploy.yaml", "composer.json", "composer.lock"]
+    path:
+        remote: 		public_html/mproject/files/dorothy/
