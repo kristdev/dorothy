@@ -1,0 +1,16 @@
+{
+    "name": "kristdev/dorothy",
+    "description": "Cameroon Libraries  Universities Searchengine",
+    "require": {
+        "codeigniter/hmvc_xajax_ci": "dev-master",
+        "phpmailer/phpmailer": "dev-master"
+    },
+    "license": "MTN private license",
+    "authors": [
+        {
+            "name": "kristdev",
+            "email": "info@kristdev.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
