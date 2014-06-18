@@ -10,7 +10,8 @@ class Home extends MX_Controller {
        }
 
        public function index(){
-       		echo 'welcome ';
+       		$data=[];
+       		$this->load->view('View File', $data, FALSE);
        }
 }
 ?>
