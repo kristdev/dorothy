@@ -16,7 +16,10 @@
 </head>
 <body>
 	
-	
+	<div class="myheader"></div>
+	<div class="mybanner"></div>
+	<div class="mybody container"></div>
+	<div class="myfooter"></div>
 
 	<!-- Coeur jquery -->
 	<script src="<?php echo base_url(); ?>assets/jquery/dist/jquery.min.js"></script>
