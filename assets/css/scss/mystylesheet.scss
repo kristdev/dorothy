@@ -1,0 +1,23 @@
+@import "compass";
+
+$my_grey: #E9E9E9;
+$my_darkgrey: #A2A2A2;
+$my_black: #444444;
+$my_blue: #428bca;
+$my_blueshadow: #357ebd;
+
+ $default-text-shadow-color: $my_blueshadow;
+
+.my_transparent{
+	background-color: transparent;
+}
+
+.my_websitetitle{
+	color: $my_blue;
+	font-size: 25px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.my_header{
+	@extend .my_websitetitle;
+}

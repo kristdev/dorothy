@@ -1,0 +1,9 @@
+/* line 11, scss/mystylesheet.scss */
+.my_transparent {
+  background-color: transparent; }
+
+/* line 15, scss/mystylesheet.scss */
+.my_websitetitle, .my_header {
+  color: #428bca;
+  font-size: 25px;
+  font-family: 'Ubuntu', sans-serif; }
