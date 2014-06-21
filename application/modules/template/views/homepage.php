@@ -17,6 +17,8 @@
 	<!-- Les polices -->
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 	<!-- ubuntu police -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<!-- Open sans police -->
 	
 </head>
 <body>
@@ -32,8 +34,11 @@
 			        <span class="icon-bar"></span>
 		      	</button>
 		      	<a class="navbar-brand" href="#">
-					<span class="my_websitetitle">
+					<span class="my_websitetitle my_blue">
 						<i class="fa fa-graduation-cap fa-lg"></i> Dorothy
+					</span>
+					<span class="my_websitetitle">
+						Search Engine
 					</span>
 		      	</a>
 		    </div>

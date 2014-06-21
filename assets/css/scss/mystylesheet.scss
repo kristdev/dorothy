@@ -6,16 +6,26 @@ $my_black: #444444;
 $my_blue: #428bca;
 $my_blueshadow: #357ebd;
 
+@mixin my_fonttitle(){
+	font-family: 'Ubuntu', sans-serif;
+}
+@mixin my_fontwebsitetitle(){
+	font-family: 'Open Sans', sans-serif;
+}
+
  $default-text-shadow-color: $my_blueshadow;
 
 .my_transparent{
 	background-color: transparent;
 }
 
-.my_websitetitle{
+.my_blue{
 	color: $my_blue;
+}
+
+.my_websitetitle{
 	font-size: 25px;
-	font-family: 'Ubuntu', sans-serif;
+	@include my_fontwebsitetitle();
 }
 
 .my_header{
