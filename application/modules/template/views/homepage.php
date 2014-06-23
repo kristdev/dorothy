@@ -77,9 +77,9 @@
                         <li class="active"><a href="#">Home</a></li>
                         <li><a href="my_account.html">Login</a></li>
                         <li><a href="register.html">Register</a></li>
-                        <li><a href="listings.html">Listings</a></li>
+                        <!-- <li><a href="listings.html">Listings</a></li>
                         <li><a href="account_dashboard.html">My account</a></li>
-                        <li><a href="account_ad_create.gif">Post an ad</a></li>
+                        <li><a href="account_ad_create.gif">Post an ad</a></li> -->
                     </ul> 
                     <div class="nav navbar-nav navbar-right hidden-xs">
                         <div class="row">
