@@ -1,12 +1,40 @@
-/* line 18, scss/mystylesheet.scss */
+@font-face {
+  font-family: "Ubuntu";
+  src: url(http://localhost/dorothy/assets/myfonts/Ubuntu/Ubuntu-Regular.ttf) format('truetype'); }
+
+@font-face {
+  font-family: "Open Sans";
+  src: url(http://localhost/dorothy/assets/myfonts/Open_Sans/OpenSans-Regular.ttf) format('truetype'); }
+
+/* line 28, scss/mystylesheet.scss */
+body {
+  font-family: 'Ubuntu', sans-serif; }
+
+/* line 33, scss/mystylesheet.scss */
 .my_transparent {
   background-color: transparent; }
 
-/* line 22, scss/mystylesheet.scss */
+/* line 36, scss/mystylesheet.scss */
 .my_blue {
   color: #428bca; }
 
-/* line 26, scss/mystylesheet.scss */
+/* line 39, scss/mystylesheet.scss */
+.my_blueborderbottom, .my_header, .my_slider {
+  border-bottom: #428bca 1px solid; }
+
+/* line 42, scss/mystylesheet.scss */
 .my_websitetitle, .my_header {
   font-size: 25px;
   font-family: 'Open Sans', sans-serif; }
+
+/* line 46, scss/mystylesheet.scss */
+.my_header {
+  margin: 0px; }
+
+/* line 51, scss/mystylesheet.scss */
+.my_slider {
+  height: 400px;
+  margin: 0px;
+  -webkit-box-shadow: 0px 0px 5px #a2a2a2;
+  -moz-box-shadow: 0px 0px 5px #a2a2a2;
+  box-shadow: 0px 0px 5px #a2a2a2; }

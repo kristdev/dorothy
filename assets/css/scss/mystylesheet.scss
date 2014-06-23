@@ -1,11 +1,22 @@
+// Imporation du framework compass
 @import "compass";
 
+// Mes polices importées
+@include font-face("Ubuntu", font-files("http://localhost/dorothy/assets/myfonts/Ubuntu/Ubuntu-Regular.ttf"));
+@include font-face("Open Sans", font-files("http://localhost/dorothy/assets/myfonts/Open_Sans/OpenSans-Regular.ttf"));
+
+// Mes variables 
 $my_grey: #E9E9E9;
 $my_darkgrey: #A2A2A2;
 $my_black: #444444;
 $my_blue: #428bca;
 $my_blueshadow: #357ebd;
+$my_sliderheight: 400px;
 
+// Les variables relatives à compass
+$default-box-shadow-color: $my_darkgrey;
+
+// Mes mixins
 @mixin my_fonttitle(){
 	font-family: 'Ubuntu', sans-serif;
 }
@@ -13,21 +24,33 @@ $my_blueshadow: #357ebd;
 	font-family: 'Open Sans', sans-serif;
 }
 
- $default-text-shadow-color: $my_blueshadow;
+//balises html
+body{
+	@include my_fonttitle();
+}
 
+ // Mes classes 
 .my_transparent{
 	background-color: transparent;
 }
-
 .my_blue{
 	color: $my_blue;
 }
-
+.my_blueborderbottom{
+	border-bottom: $my_blue 1px solid;
+}
 .my_websitetitle{
 	font-size: 25px;
 	@include my_fontwebsitetitle();
 }
-
 .my_header{
 	@extend .my_websitetitle;
+	margin: 0px;
+	@extend .my_blueborderbottom;
+}
+.my_slider{
+	height: $my_sliderheight;
+	margin: 0px;
+	@include box-shadow();
+	@extend .my_blueborderbottom;
 }

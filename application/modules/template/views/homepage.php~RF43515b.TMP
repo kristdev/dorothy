@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     
+<!-- Mirrored from templates.expresspixel.com/bootlistings/ by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 18 Jun 2014 05:29:17 GMT -->
 <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,17 +13,14 @@
         <title>Dorothy - Cameroon Lib Univerities Search engine</title>
 
         <!-- Bootstrap core CSS -->
-        <link id="switch_style" href="<?php echo base_url(); ?>assets/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+        <link id="switch_style" href="css/bootstrap.css" rel="stylesheet">
 
         <!-- Custom styles for this template -->
-        <link href="<?php echo base_url(); ?>assets/css/theme.css" rel="stylesheet">
-        <link href="<?php echo base_url(); ?>assets/css/my_stylesheet.css" rel="stylesheet">
+        <link href="css/theme.css" rel="stylesheet">
         <link href="css/dropzone.css" rel="stylesheet">
-        <link href="<?php echo base_url(); ?>assets/fontawesome/css/font-awesome.css" rel="stylesheet">
-        <link rel="stylesheet" href="<?php echo base_url(); ?>assets/dropzone/downloads/css/dropzone.css">
-        <!-- 
+        <link href="../../netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox8cbb.css?v=2.1.5" media="screen" />
-        <link rel="stylesheet" type="text/css" href="js/fancybox/helpers/jquery.fancybox-buttons8cbb.css?v=2.1.5" media="screen" /> -->
+        <link rel="stylesheet" type="text/css" href="js/fancybox/helpers/jquery.fancybox-buttons8cbb.css?v=2.1.5" media="screen" />
         
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -60,11 +58,8 @@
                     </button>
 
                     <a href="index-2.html" class="navbar-brand ">
-                        <span class="my_websitetitle">
-                            <strong>Dorothy </strong> 
-                            <span class="handwriting"> Search Engine</span><br />
-                            <small >Cameroon Universities & Libraries Search Engine </small>
-                        </span>
+                        <span class="logo"><strong>classified</strong><span class="handwriting">Dorothy</span><br />
+                            <small >Cameroon University Search engine </small></span>
                     </a>
 
                 </div>
@@ -119,7 +114,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <br />
-                <p class="main_description">Search thousands of books, Statements and thesis  classifieds all in one place</p>
+                <p class="main_description">Search thousands of stores, brands, products and user classifieds all in one place</p>
 
                 <br /><br />
                 <div class="row">
@@ -684,17 +679,18 @@
 
                 <div class="col-xs-12 col-sm-5 col-md-12  col-lg-11 pull-right" >
 
-                    <!-- <div class="panel panel-default">
-                    
-                    
+
+                    <div class="panel panel-default">
+
+
                         <div class="panel-body" style="height: 102px; display: block;">
-                    
+
                             <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="265" data-layout="standard" data-action="like" data-show-faces="false" data-share="false" style="display: block; height: 30px;"></div>
                             <br />
-                            Place this tag where you want the +1 button to render.
+                            <!-- Place this tag where you want the +1 button to render. -->
                             <div class="g-plusone" data-annotation="inline" data-width="300" style="display: block; height: 30px;"></div>
-                    
-                            Place this tag after the last +1 button tag.
+
+                            <!-- Place this tag after the last +1 button tag. -->
                             <script type="text/javascript">
                                 (function() {
                                     var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
@@ -707,7 +703,7 @@
                             <a href="https://twitter.com/twitterapi" class="twitter-follow-button" data-dnt="true">Follow @twitterapi</a>
                             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="../../platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                         </div>
-                    </div> -->
+                    </div>
 
                     <p class="main_slogan" style="margin: 28px 0">Currently listing 355,785 classified ads in the United Kingdom.</p>
 
@@ -886,10 +882,17 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="<?php echo base_url(); ?>assets/jquery/dist/jquery.min.js"></script>
-<script src="<?php echo base_url(); ?>assets/bootstrap/dist/js/bootstrap.js"></script>
-<script src="<?php echo base_url(); ?>assets/dropzone/downloads/dropzone.min.js"></script>
-<script src="<?php echo base_url(); ?>assets/js/global.js"></script>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+<script src="js/jquery.flot.js"></script>
+<script src="js/dropzone.js"></script>
+
+<!-- Add fancyBox main JS and CSS files -->
+<script type="text/javascript" src="js/fancybox/jquery.fancybox8cbb.js?v=2.1.5"></script>
+<script type="text/javascript" src="js/fancybox/helpers/jquery.fancybox-buttons8cbb.js?v=2.1.5"></script>
+<script type="text/javascript" src="js/fancybox/helpers/jquery.fancybox-media8cbb.js?v=2.1.5"></script>
+<script src="js/global.js"></script>
 </body>
 
+<!-- Mirrored from templates.expresspixel.com/bootlistings/ by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 18 Jun 2014 05:29:21 GMT -->
 </html>
