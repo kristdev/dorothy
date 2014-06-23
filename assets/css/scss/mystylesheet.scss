@@ -18,20 +18,19 @@ $default-box-shadow-color: $my_darkgrey;
 
 // Mes mixins
 @mixin my_fonttitle(){
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Ubuntu', sans-serif !important;
 }
 @mixin my_fontwebsitetitle(){
 	font-family: 'Open Sans', sans-serif;
 }
 
-//balises html
-body{
-	@include my_fonttitle();
-}
-
  // Mes classes 
 .my_transparent{
 	background-color: transparent;
+}
+.my_fontbody{
+	@include my_fonttitle();
+	font-size: 14px;
 }
 .my_blue{
 	color: $my_blue;

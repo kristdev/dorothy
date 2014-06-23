@@ -31,7 +31,7 @@
         <![endif]-->
     </head>
 
-    <body>
+    <body class="my_fontbody">
 
             
         <div id="fb-root"></div>
@@ -88,10 +88,10 @@
 
 
                                 <a data-toggle="modal" data-target="#modalLogin"  href="#">Login</a> | 
-                                <a href="register.html">Register</a> | 
+                                <a href="register.html">Register</a> <!-- | 
                                 <a href="listings.html">Listings</a> | 
                                 <a href="account_dashboard.html">My account</a>
-                                <a href="account_ad_create.gif" class="btn btn-warning post-ad-btn">Post an ad</a>
+                                <a href="account_ad_create.gif" class="btn btn-warning post-ad-btn">Post an ad</a> -->
 
                             </div>	
                         </div>
@@ -131,7 +131,7 @@
                                 <div class="input-group">
                                     <span class="input-group-addon input-group-addon-text">Find me a</span>
 
-                                    <input type="text" class="form-control col-sm-3" placeholder="e.g. BMW, 2 bed flat, sofa ">
+                                    <input type="text" class="form-control col-sm-3" placeholder="e.g. Mathematics, Pysics, Geography, Biology">
                                     <div class=" input-group-addon hidden-xs">
                                         <div class="btn-group" >
                                             <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown">
