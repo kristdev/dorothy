@@ -23,8 +23,8 @@
         
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
-        <script src="../../assets/js/html5shiv.js"></script>
-        <script src="../../assets/js/respond.min.js"></script>
+        <script src="<?php echo base_url(); ?>assets/js/html5shiv.js"></script>
+        <script src="<?php echo base_url(); ?>assets/js/respond.min.js"></script>
         <![endif]-->
     </head>
 
@@ -675,18 +675,51 @@
                     <br class="hidden-sm hidden-xs"/>
 
                     <div class="panel panel-default">
-                        <div class="panel-heading">Quick guide</div>
-
-                        <ul class="list-group">
-                            <li class="list-group-item"><a href="typography.html">Our tips to stay safe</a></li>
-                            <li class="list-group-item"><a href="typography.html">How to buy guide</a></li>
-                            <li class="list-group-item"><a href="typography.html">How to sell guide</a></li>
-                            <li class="list-group-item"><a href="typography.html">Help and contact us</a></li>
-                            <li class="list-group-item"><a href="typography.html">Frequently asked questions</a></li>
+                        <div class="panel-heading">Les salons les plus visités</div>
+                        <ul class="cards list-group">
+                            <li class="list-group-item">
+                                <p class="title">Ashley Jacobs</p>
+                                <div class="img">
+                                    <img class="img-responsive col-md-4" src="<?php echo base_url(); ?>assets/img/users/7bfa446aed17be550bdd5b157fd71a9e.jpg">
+                                    <div class="label label-info">Pro</div>
+                                </div>
+                                <p class="info-text">Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.</p>
+                                <div class="stats">
+                                    <p class="time">5 minutes ago</p>
+                                    <span>15 <i class="fa fa-paperclip"></i></span> - 
+                                    <span>27 <i class="fa fa-comments"></i></span> - 
+                                    <span>158 <i class="fa fa-eye"></i></span> 
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="title">Sarah Whitman</p>
+                                <div class="img">
+                                    <img class="img-responsive col-md-4" src="<?php echo base_url(); ?>assets/img/users/733aa09b66022a64ba72aad2311f7c01.jpg">
+                                    <div class="label label-warning">Free</div>
+                                </div>
+                                <p class="info-text">Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master.</p>
+                                <div class="stats">
+                                    <p class="time">29 minutes ago</p>
+                                    <span>10 <i class="fa fa-paperclip"></i></span> - 
+                                    <span>19 <i class="fa fa-comments"></i></span> - 
+                                    <span>58 <i class="fa fa-eye"></i></span>  
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="title">Connor Adams</p>
+                                <div class="img">
+                                    <img class="img-responsive col-md-4" src="<?php echo base_url(); ?>assets/img/users/a7070605bda0ea1c618af0c6235c183d.jpg">
+                                    <div class="label label-info">Pro</div>
+                                </div>
+                                <p class="info-text">Anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack.</p>
+                                <div class="stats">
+                                    <p class="time">Yesterday</p>
+                                    <span>25 <i class="fa fa-paperclip"></i></span> - 
+                                    <span>39 <i class="fa fa-comments"></i></span> - 
+                                    <span>252 <i class="fa fa-eye"></i></span> 
+                                </div>
+                            </li>
                         </ul>
-
-
-
                     </div>
                 </div>
 
@@ -721,72 +754,6 @@
 
                 </div>
 
-
-
-                <div class="col-xs-12 col-sm-4 col-md-12  col-lg-11 pull-right" >
-
-
-                    <div class="panel panel-default">
-                        <div class="panel-heading">Premium listings</div>
-                        <div class="panel-body">
-                            <div class="featured-gallery">
-
-                                <div class="row">
-
-
-                                    <div class="col-sm-6 col-xs-4 featured-thumbnail"  data-toggle="tooltip" data-placement="top" title="Programmer job availiable at Uber in London">
-                                        <a href="details.html" class="">
-                                            <img alt="" src="css/images/logos/uberlogo_large_verge_medium_landscape.png" style="width: 100%" >
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-6 col-xs-4 featured-thumbnail"  data-toggle="tooltip" data-placement="top"  title="Porsche Boxster S, 2.9 2dr reg Apr 2007 ">
-                                        <a href="details.html" class="">
-                                            <img alt="" src="css/images/logos/car-78738_150.jpg"  />
-                                        </a>
-                                    </div>
-
-
-
-                                    <div class="col-sm-6 col-xs-4 featured-thumbnail" data-toggle="tooltip" data-placement="top"  title="Please find my lost cat">
-                                        <a href="details.html" class="" >
-                                            <img alt="" src="css/images/logos/cats-q-c-120-80-4.jpg"  />
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-6 col-xs-4 featured-thumbnail" data-toggle="tooltip" data-placement="top"  title="Mini copper looking for a quick sell !! - London - £2,485">
-                                        <a href="details.html" class="" >
-                                            <img alt="" src="css/images/logos/transport-q-c-120-80-8.jpg"  />
-                                        </a>
-                                    </div>
-
-
-
-                                    <div class="col-sm-6 col-xs-4 featured-thumbnail" data-toggle="tooltip" data-placement="top"  title="Old MP3 player for sale">
-                                        <a href="details.html" class="" >
-                                            <img alt="" src="css/images/logos/technics-q-c-120-80-10.jpg"  />
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-6 col-xs-4 featured-thumbnail" data-toggle="tooltip" data-placement="top" title="Designer job availiable at Uber in London">
-                                        <a href="details.html" class="" >
-                                            <img alt="" src="css/images/logos/uberlogo_large_verge_medium_landscape.png"  />
-                                        </a>
-                                    </div>
-
-
-
-
-                                </div>
-
-
-
-                            </div>
-
-
-
-                        </div>
-                    </div>
-
-
-                </div>
             </div>
 
         </div>
