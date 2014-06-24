@@ -17,12 +17,9 @@
         <!-- Custom styles for this template -->
         <link href="<?php echo base_url(); ?>assets/css/theme.css" rel="stylesheet">
         <link href="<?php echo base_url(); ?>assets/css/my_stylesheet.css" rel="stylesheet">
-        <link href="css/dropzone.css" rel="stylesheet">
         <link href="<?php echo base_url(); ?>assets/fontawesome/css/font-awesome.css" rel="stylesheet">
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/dropzone/downloads/css/dropzone.css">
-        <!-- 
-        <link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox8cbb.css?v=2.1.5" media="screen" />
-        <link rel="stylesheet" type="text/css" href="js/fancybox/helpers/jquery.fancybox-buttons8cbb.css?v=2.1.5" media="screen" /> -->
+        <link rel="stylesheet" href="<?php echo base_url(); ?>assets/bootstrap-select/bootstrap-select.css">
         
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -122,40 +119,49 @@
                 <p class="main_description">Search thousands of books, Statements and thesis  classifieds all in one place</p>
 
                 <br /><br />
-                <div class="row">
-
-                    <div class="col-sm-8 col-sm-offset-2" style="text-align: center">
-                        <div class="row">
-
-                            <div class="col-sm-10 col-sm-offset-1">
-                                <div class="input-group">
-                                    <span class="input-group-addon input-group-addon-text">Find me a</span>
-
-                                    <input type="text" class="form-control col-sm-3" placeholder="e.g. Mathematics, Pysics, Geography, Biology">
-                                    <div class=" input-group-addon hidden-xs">
-                                        <div class="btn-group" >
-                                            <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown">
-                                                All categories <span class="caret"></span>
-                                            </button>
-                                            <ul class="dropdown-menu" role="menu">
-                                                <li><a href="#">Cars, Vans & Motorbikes</a></li>
-                                                <li><a href="#">Community</a></li>
-                                                <li><a href="#">Flats & Houses</a></li>
-                                                <li><a href="#">For Sale</a></li>
-                                                <li><a href="#">Jobs</a></li>
-                                                <li><a href="#">Pets</a></li>
-                                                <li><a href="#">Services</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                </div>
-
+                <div class="row text-center">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="input-group">
+                            <span class="hidden-xs input-group-addon input-group-addon-text">Find me a</span>
+                            <div class="col-md-8 col-xs-12">
+                                <input type="text" class="form-control" placeholder="e.g. Mathematics, Pysics, Geography, Biology">
                             </div>
-
-
+                            <div class="col-md-4 col-xs-12">
+                                <select class="selectpicker form-control" multipleselect data-live-search="true">
+                                    <optgroup label="Les rayons">
+                                        <option>Tous les rayons</option>
+                                        <option>Gestion Appliquée</option>
+                                        <option>Sciences</option>
+                                        <option>Droit</option>
+                                        <option>Economie</option>
+                                        <option>Communication</option>
+                                        <option>Histoire</option>
+                                        <option>Commerce-Vente</option>
+                                    </optgroup>
+                                    <optgroup label="Gestion Appliquée">
+                                        <option>Ressources Humaines</option>
+                                        <option>Management</option>
+                                    </optgroup>
+                                    <optgroup label="Sciences">
+                                        <option>Mathématiques</option>
+                                        <option>Sciences de la vie</option>
+                                        <option>Siences de la terre</option>
+                                        <option>Astronomie</option>
+                                    </optgroup>
+                                    <optgroup label="Droit">
+                                        <option>Droit privé</option>
+                                        <option>Droit public</option>
+                                        <option>Droit international</option>
+                                        <option>Code Jurisprudence</option>
+                                    </optgroup>
+                                    <optgroup label="Economie">
+                                        <option>Tent</option>
+                                    </optgroup>
+                                </select>
+                            </div>
                         </div>
-                    </div>
+
+                    </div>        
                 </div>
                 <br />
                 <br />
@@ -890,6 +896,16 @@
 <script src="<?php echo base_url(); ?>assets/bootstrap/dist/js/bootstrap.js"></script>
 <script src="<?php echo base_url(); ?>assets/dropzone/downloads/dropzone.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/global.js"></script>
+<script src="<?php echo base_url(); ?>assets/bootstrap-select/bootstrap-select.js"></script>
+
+<script>
+       $(window).on('load', function () {
+
+            $('.selectpicker').selectpicker();
+
+            // $('.selectpicker').selectpicker('hide');
+        });
+   </script>
 </body>
 
 </html>
