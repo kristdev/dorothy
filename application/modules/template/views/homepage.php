@@ -20,6 +20,7 @@
         <link href="<?php echo base_url(); ?>assets/fontawesome/css/font-awesome.css" rel="stylesheet">
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/dropzone/downloads/css/dropzone.css">
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/bootstrap-select/bootstrap-select.css">
+        <link rel="stylesheet" href="<?php echo base_url(); ?>assets/jQCloud/jqcloud/jqcloud.css">
         
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -325,7 +326,15 @@
                     <h2><span>Tags appreciated listing</span></h2>
                 </div>
             </div>
-
+            <div class="row directory">
+                <div class="col-xs-12">
+                    <div class="directory-block">
+                        <div class="row">
+                            <div id="wordcloud" class="col-md-12 col-xs-12 col-sm-12" style="height:250px;"> </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>   
         </div>
 
         <div class="col-xs-12 col-md-4 " >
@@ -501,15 +510,68 @@
 <script src="<?php echo base_url(); ?>assets/dropzone/downloads/dropzone.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/global.js"></script>
 <script src="<?php echo base_url(); ?>assets/bootstrap-select/bootstrap-select.js"></script>
+<script src="<?php echo base_url(); ?>assets/jQCloud/jqcloud/jqcloud-1.0.3.min.js"></script>
 
 <script>
-       $(window).on('load', function () {
+   $(window).on('load', function () {
 
-            $('.selectpicker').selectpicker();
+        $('.selectpicker').selectpicker();
 
-            // $('.selectpicker').selectpicker('hide');
+        // $('.selectpicker').selectpicker('hide');
+    });
+</script>
+
+ <script type="text/javascript">
+      var word_list = new Array(
+        {text: "Lorem", weight: 13, link: "https://github.com/lucaong/jQCloud"},
+        {text: "Ipsum", weight: 10.5, link: "http://jquery.com/"},
+        {text: "Dolor", weight: 9.4},
+        {text: "Sit", weight: 8},
+        {text: "Amet", weight: 6.2},
+        {text: "Consectetur", weight: 5},
+        {text: "Adipiscing", weight: 5},
+        {text: "Elit", weight: 5},
+        {text: "Nam et", weight: 5},
+        {text: "Leo", weight: 4},
+        {text: "Sapien", weight: 4, link: "http://www.lucaongaro.eu/"},
+        {text: "Pellentesque", weight: 3},
+        {text: "habitant", weight: 3},
+        {text: "morbi", weight: 3},
+        {text: "tristisque", weight: 3},
+        {text: "senectus", weight: 3},
+        {text: "et netus", weight: 3},
+        {text: "et malesuada", weight: 3},
+        {text: "fames", weight: 2},
+        {text: "ac turpis", weight: 2},
+        {text: "egestas", weight: 2},
+        {text: "Aenean", weight: 2},
+        {text: "vestibulum", weight: 2},
+        {text: "elit", weight: 2},
+        {text: "sit amet", weight: 2},
+        {text: "metus", weight: 2},
+        {text: "adipiscing", weight: 2},
+        {text: "ut ultrices", weight: 2},
+        {text: "justo", weight: 1},
+        {text: "dictum", weight: 1},
+        {text: "Ut et leo", weight: 1},
+        {text: "metus", weight: 1},
+        {text: "at molestie", weight: 1},
+        {text: "purus", weight: 1},
+        {text: "Curabitur", weight: 1},
+        {text: "diam", weight: 1},
+        {text: "dui", weight: 1},
+        {text: "ullamcorper", weight: 1},
+        {text: "id vuluptate ut", weight: 1},
+        {text: "mattis", weight: 1},
+        {text: "et nulla", weight: 1},
+        {text: "Sed", weight: 1}
+      );
+        $(window).on('load', function () {
+            $("#wordcloud").jQCloud(word_list);
         });
-   </script>
+      
+    </script>
+
 </body>
 
 </html>
