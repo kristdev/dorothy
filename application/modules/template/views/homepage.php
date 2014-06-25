@@ -725,32 +725,7 @@
 
                 <div class="col-xs-12 col-sm-5 col-md-12  col-lg-11 pull-right" >
 
-                    <!-- <div class="panel panel-default">
-                    
-                    
-                        <div class="panel-body" style="height: 102px; display: block;">
-                    
-                            <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="265" data-layout="standard" data-action="like" data-show-faces="false" data-share="false" style="display: block; height: 30px;"></div>
-                            <br />
-                            Place this tag where you want the +1 button to render.
-                            <div class="g-plusone" data-annotation="inline" data-width="300" style="display: block; height: 30px;"></div>
-                    
-                            Place this tag after the last +1 button tag.
-                            <script type="text/javascript">
-                                (function() {
-                                    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                                    po.src = '../../apis.google.com/js/platform.js';
-                                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-                                })();
-                            </script>
-                        </div>
-                        <div class="panel-footer">
-                            <a href="https://twitter.com/twitterapi" class="twitter-follow-button" data-dnt="true">Follow @twitterapi</a>
-                            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="../../platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                        </div>
-                    </div> -->
-
-                    <p class="main_slogan" style="margin: 28px 0">Currently listing 355,785 classified ads in the United Kingdom.</p>
+                    <p class="main_slogan text-primary" style="margin: 28px 0">Currently listing <strong>355,785</strong>  classified ads in the United Kingdom.</p>
 
                 </div>
 
@@ -841,14 +816,13 @@
         <div class="row">
 
             <div class="col-sm-4 col-xs-12">
-                <p><strong>&copy; Bootstrap Classifieds 2014</strong></p>
-                <p>All rights reserved</p>
+                <p><strong>&copy; MTN Foundation 2014</strong></p>
+                <p>All rights reserved, <a href="http://kristdev.com">By kristdev</a> </p>
             </div>			
 
             <div class="col-sm-8 col-xs-12">
                 <p class="footer-links">
                     <a href="index-2.html" class="active">Home</a>
-                    <a href="typography.html">Typography</a>
                     <a href="terms.html">Terms and Conditions</a>
                     <a href="contact.html">Contact Us</a>
                 </p>
