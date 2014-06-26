@@ -18,5 +18,9 @@ class Template extends MX_Controller {
 	public function myapp($data){
 		$this->load->view('myapppage', $data, FALSE);
 	}
+
+	public function menu(){
+		$this->load->view('./include/menuview', FALSE);
+	}
 }
 ?>

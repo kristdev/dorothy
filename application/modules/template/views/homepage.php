@@ -2,117 +2,52 @@
 <html lang="en">
     
 <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <link rel="shortcut icon" href="../assets/ico/favicon.html">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../assets/ico/favicon.html">
 
-        <title>Dorothy - Cameroon Lib Univerities Search engine</title>
+    <title>Dorothy - Cameroon Lib Univerities Search engine</title>
 
-        <!-- Bootstrap core CSS -->
-        <link id="switch_style" href="<?php echo base_url(); ?>assets/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link id="switch_style" href="<?php echo base_url(); ?>assets/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
 
-        <!-- Custom styles for this template -->
-        <link href="<?php echo base_url(); ?>assets/css/theme.css" rel="stylesheet">
-        <link href="<?php echo base_url(); ?>assets/css/my_stylesheet.css" rel="stylesheet">
-        <link href="<?php echo base_url(); ?>assets/fontawesome/css/font-awesome.css" rel="stylesheet">
-        <link rel="stylesheet" href="<?php echo base_url(); ?>assets/dropzone/downloads/css/dropzone.css">
-        <link rel="stylesheet" href="<?php echo base_url(); ?>assets/bootstrap-select/bootstrap-select.css">
-        <link rel="stylesheet" href="<?php echo base_url(); ?>assets/jQCloud/jqcloud/jqcloud.css">
+    <!-- Custom styles for this template -->
+    <link href="<?php echo base_url(); ?>assets/css/theme.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/my_stylesheet.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/fontawesome/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/dropzone/downloads/css/dropzone.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/bootstrap-select/bootstrap-select.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/jQCloud/jqcloud/jqcloud.css">
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="<?php echo base_url(); ?>assets/js/html5shiv.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="my_fontbody">
+
         
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-        <script src="<?php echo base_url(); ?>assets/js/html5shiv.js"></script>
-        <script src="<?php echo base_url(); ?>assets/js/respond.min.js"></script>
-        <![endif]-->
-    </head>
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "../../connect.facebook.net/en_GB/all.js#xfbml=1";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 
-    <body class="my_fontbody">
+ <!-- <Module_menu> -->
+<?php echo Modules::run('template/menu'); ?>
+ <!-- </Module_menu> -->
 
-            
-        <div id="fb-root"></div>
-        <script>
-            (function(d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) return;
-                js = d.createElement(s); js.id = id;
-                js.src = "../../connect.facebook.net/en_GB/all.js#xfbml=1";
-                fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-        </script>
-        
-        
-
-
-
-        <nav class="navbar navbar-default" role="navigation">
-            <div class="container">
-
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-
-                    <a href="index-2.html" class="navbar-brand ">
-                        <span class="my_websitetitle">
-                            <strong>Dorothy </strong> 
-                            <span class="handwriting"> Search Engine</span><br />
-                            <small >Cameroon Universities & Libraries Search Engine </small>
-                        </span>
-                    </a>
-
-                </div>
-
-
-
-                <div class="collapse navbar-collapse">
-
-                    <ul class="nav navbar-nav navbar-right visible-xs">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="my_account.html">Login</a></li>
-                        <li><a href="register.html">Register</a></li>
-                        <!-- <li><a href="listings.html">Listings</a></li>
-                        <li><a href="account_dashboard.html">My account</a></li>
-                        <li><a href="account_ad_create.gif">Post an ad</a></li> -->
-                    </ul> 
-                    <div class="nav navbar-nav navbar-right hidden-xs">
-                        <div class="row">
-
-                            <div class="pull-right">
-
-
-                                <a data-toggle="modal" data-target="#modalLogin"  href="#">Login</a> | 
-                                <a href="register.html">Register</a> <!-- | 
-                                <a href="listings.html">Listings</a> | 
-                                <a href="account_dashboard.html">My account</a>
-                                <a href="account_ad_create.gif" class="btn btn-warning post-ad-btn">Post an ad</a> -->
-
-                            </div>	
-                        </div>
-
-
-
-
-                    </div>
-
-                </div>
-                </div>
-
-
-
-
-
-            </nav>
-
-
-
-            
-
-            <div class="jumbotron home-search" style="">
+<div class="jumbotron home-search" style="">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -399,26 +334,9 @@
 <?php echo Modules::run('login'); ?>
 <!-- </Module_login> -->
 
-<div class="footer">
-    <div class="container">
-
-        <div class="row">
-
-            <div class="col-sm-4 col-xs-12">
-                <p><strong>&copy; MTN Foundation 2014</strong></p>
-                <p>All rights reserved, <a href="http://kristdev.com">By kristdev</a> </p>
-            </div>			
-
-            <div class="col-sm-8 col-xs-12">
-                <p class="footer-links">
-                    <a href="index-2.html" class="active">Home</a>
-                    <a href="terms.html">Terms and Conditions</a>
-                    <a href="contact.html">Contact Us</a>
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
+<!-- <Vue_footer> -->
+<?php echo $this->load->view('./include/footerview', FALSE); ?>
+<!-- </Vue_footer> -->
 
 
 <!-- Bootstrap core JavaScript
@@ -440,56 +358,56 @@
     });
 </script>
 
- <script type="text/javascript">
-      var word_list = new Array(
-        {text: "Lorem", weight: 13, link: "https://github.com/lucaong/jQCloud"},
-        {text: "Ipsum", weight: 10.5, link: "http://jquery.com/"},
-        {text: "Dolor", weight: 9.4},
-        {text: "Sit", weight: 8},
-        {text: "Amet", weight: 6.2},
-        {text: "Consectetur", weight: 5},
-        {text: "Adipiscing", weight: 5},
-        {text: "Elit", weight: 5},
-        {text: "Nam et", weight: 5},
-        {text: "Leo", weight: 4},
-        {text: "Sapien", weight: 4, link: "http://www.lucaongaro.eu/"},
-        {text: "Pellentesque", weight: 3},
-        {text: "habitant", weight: 3},
-        {text: "morbi", weight: 3},
-        {text: "tristisque", weight: 3},
-        {text: "senectus", weight: 3},
-        {text: "et netus", weight: 3},
-        {text: "et malesuada", weight: 3},
-        {text: "fames", weight: 2},
-        {text: "ac turpis", weight: 2},
-        {text: "egestas", weight: 2},
-        {text: "Aenean", weight: 2},
-        {text: "vestibulum", weight: 2},
-        {text: "elit", weight: 2},
-        {text: "sit amet", weight: 2},
-        {text: "metus", weight: 2},
-        {text: "adipiscing", weight: 2},
-        {text: "ut ultrices", weight: 2},
-        {text: "justo", weight: 1},
-        {text: "dictum", weight: 1},
-        {text: "Ut et leo", weight: 1},
-        {text: "metus", weight: 1},
-        {text: "at molestie", weight: 1},
-        {text: "purus", weight: 1},
-        {text: "Curabitur", weight: 1},
-        {text: "diam", weight: 1},
-        {text: "dui", weight: 1},
-        {text: "ullamcorper", weight: 1},
-        {text: "id vuluptate ut", weight: 1},
-        {text: "mattis", weight: 1},
-        {text: "et nulla", weight: 1},
-        {text: "Sed", weight: 1}
-      );
-        $(window).on('load', function () {
-            $("#wordcloud").jQCloud(word_list);
-        });
-      
-    </script>
+<script type="text/javascript">
+  var word_list = new Array(
+    {text: "Lorem", weight: 13, link: "https://github.com/lucaong/jQCloud"},
+    {text: "Ipsum", weight: 10.5, link: "http://jquery.com/"},
+    {text: "Dolor", weight: 9.4},
+    {text: "Sit", weight: 8},
+    {text: "Amet", weight: 6.2},
+    {text: "Consectetur", weight: 5},
+    {text: "Adipiscing", weight: 5},
+    {text: "Elit", weight: 5},
+    {text: "Nam et", weight: 5},
+    {text: "Leo", weight: 4},
+    {text: "Sapien", weight: 4, link: "http://www.lucaongaro.eu/"},
+    {text: "Pellentesque", weight: 3},
+    {text: "habitant", weight: 3},
+    {text: "morbi", weight: 3},
+    {text: "tristisque", weight: 3},
+    {text: "senectus", weight: 3},
+    {text: "et netus", weight: 3},
+    {text: "et malesuada", weight: 3},
+    {text: "fames", weight: 2},
+    {text: "ac turpis", weight: 2},
+    {text: "egestas", weight: 2},
+    {text: "Aenean", weight: 2},
+    {text: "vestibulum", weight: 2},
+    {text: "elit", weight: 2},
+    {text: "sit amet", weight: 2},
+    {text: "metus", weight: 2},
+    {text: "adipiscing", weight: 2},
+    {text: "ut ultrices", weight: 2},
+    {text: "justo", weight: 1},
+    {text: "dictum", weight: 1},
+    {text: "Ut et leo", weight: 1},
+    {text: "metus", weight: 1},
+    {text: "at molestie", weight: 1},
+    {text: "purus", weight: 1},
+    {text: "Curabitur", weight: 1},
+    {text: "diam", weight: 1},
+    {text: "dui", weight: 1},
+    {text: "ullamcorper", weight: 1},
+    {text: "id vuluptate ut", weight: 1},
+    {text: "mattis", weight: 1},
+    {text: "et nulla", weight: 1},
+    {text: "Sed", weight: 1}
+  );
+    $(window).on('load', function () {
+        $("#wordcloud").jQCloud(word_list);
+    });
+  
+</script>
 
 </body>
 
