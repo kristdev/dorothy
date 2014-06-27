@@ -34,8 +34,7 @@
                 <div class="row">
 
                     <div class="pull-right">
-
-
+                        <a href="./" class="">Home</a> |
                         <a data-toggle="modal" data-target="#modalLogin"  href="#">Login</a> | 
                         <a href="<?php echo base_url(); ?>register">Register</a> <!-- | 
                         <a href="listings.html">Listings</a> | 

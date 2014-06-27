@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
-<!-- Mirrored from templates.expresspixel.com/bootlistings/register.html by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 18 Jun 2014 05:29:36 GMT -->
+  
 <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
