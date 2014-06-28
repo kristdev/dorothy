@@ -19,17 +19,11 @@
                                         <div class="form-group">
                                             <label for="exampleInputEmail1">Full name</label>
                                             <div class="row">
-                                                <div class="col-sm-3">
-                                                    <select class="form-control">
-                                                        <option value="1">Mr</option>
-                                                        <option value="2">Mrs</option>
-                                                    </select>
+                                                <div class="col-sm-6">
+                                                    <input type="email" class="form-control " id="exampleInputEmail1" placeholder="First name" required>
                                                 </div>
-                                                <div class="col-sm-4">
-                                                    <input type="email" class="form-control " id="exampleInputEmail1" placeholder="First name">
-                                                </div>
-                                                <div class="col-sm-5">
-                                                    <input type="email" class="form-control " id="exampleInputEmail1" placeholder="Last name">
+                                                <div class="col-sm-6">
+                                                    <input type="email" class="form-control " id="exampleInputEmail1" placeholder="Last name" required>
                                                 </div>
                                             </div>
 
@@ -44,25 +38,18 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="exampleInputEmail1">Email address</label>
-                                            <input type="email" class="form-control " id="exampleInputEmail1" placeholder="Enter email">
+                                            <input type="email" class="form-control " id="exampleInputEmail1" placeholder="Enter email" required>
                                         </div>
                                         <div class="form-group">
                                             <label for="exampleInputPassword1">Password</label>
-                                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Make sure your password is longer than 6 characters">
+                                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Make sure your password is longer than 6 characters" required>
                                         </div>
                                         <div class="form-group">
                                             <label for="exampleInputPassword1">Confirm password</label>
-                                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm your password">
+                                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm your password" required>
                                         </div>                            
-
-                                        <div class="checkbox">
-                                            <label>
-                                                <input type="checkbox"> We can contact you with relevant properties, offers and news
-                                            </label>
-                                        </div>
                                         <br />
                                         <a href="account_dashboard.html" class="btn btn-primary">Create account</a>
-
 
                                     </div>
                                 </div>
