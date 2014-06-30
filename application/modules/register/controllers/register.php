@@ -9,8 +9,8 @@ class Register extends MX_Controller {
    	}
 
    	public function index(){
-   		if($this->session->userdata('id')){
-			redirect(base_url().'myapp');
+   		if($this->ion_auth->logged_in()){
+			redirect(base_url());
 		}
 		else{
 			$data['module']='register';
@@ -19,6 +19,51 @@ class Register extends MX_Controller {
 			$data['title']='Dorothy - Crééez un compte';
 			echo Modules::run('template/myapp',$data);
 		}
-	}	
+	}
+
+	public function create_user(){
+		$config=array(
+				array(
+						'field'			=>	'first_name',
+						'label'			=>	'First name',
+						'rules'			=>	'required|xss_clean'					
+					),
+				array(
+						'field'			=>	'last_name',
+						'label'			=>	'Last name',
+						'rules'			=>	'required|xss_clean'					
+					),
+				array(
+						'field'			=>	'groupe',
+						'label'			=>	'Groupe',
+						'rules'			=>	'required|xss_clean'					
+					),
+				array(
+						'field'			=>	'email',
+						'label'			=>	'Email',
+						'rules'			=>	'required|xss_clean|valid_email|is_unique[users.email]'					
+					),
+				array(
+						'field'			=>	'password',
+						'label'			=>	'Password',
+						'rules'			=>	'required|xss_clean|min_length[6]|max_length[12]'					
+					),
+				array(
+						'field'			=>	'password1',
+						'label'			=>	'Password Confirmed',
+						'rules'			=>	'required|xss_clean|matches[password]'					
+					)
+			);
+
+		$this->form_validation->set_rules($config);
+
+		if($this->form_validation->run()==false){
+			$this->index();
+		}else{
+			
+		}
+	}
+
+	
 }
 ?>

@@ -17,13 +17,13 @@
 
                                     <div class="well">
                                         <div class="form-group">
-                                            <label for="exampleInputEmail1">Full name</label>
+                                            <label for="first_name">Full name</label>
                                             <div class="row">
                                                 <div class="col-sm-6">
-                                                    <input type="email" class="form-control " id="exampleInputEmail1" placeholder="First name" required>
+                                                    <input name="first_name" type="text" class="form-control " id="first_name" placeholder="First name" required>
                                                 </div>
                                                 <div class="col-sm-6">
-                                                    <input type="email" class="form-control " id="exampleInputEmail1" placeholder="Last name" required>
+                                                    <input name="last_name" type="text" class="form-control " id="last_name" placeholder="Last name" required>
                                                 </div>
                                             </div>
 
@@ -37,25 +37,23 @@
                                             </select>
                                         </div>
                                         <div class="form-group">
-                                            <label for="exampleInputEmail1">Email address</label>
-                                            <input type="email" class="form-control " id="exampleInputEmail1" placeholder="Enter email" required>
+                                            <label for="email">Email address</label>
+                                            <input type="email" class="form-control " id="email" placeholder="Enter email" required>
                                         </div>
                                         <div class="form-group">
-                                            <label for="exampleInputPassword1">Password</label>
-                                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Make sure your password is longer than 6 characters" required>
+                                            <label for="password">Password</label>
+                                            <input type="password" class="form-control" id="password" placeholder="Make sure your password is longer than 6 characters" required>
                                         </div>
                                         <div class="form-group">
-                                            <label for="exampleInputPassword1">Confirm password</label>
-                                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm your password" required>
+                                            <label for="password1">Confirm password</label>
+                                            <input type="password" class="form-control" id="password1" placeholder="Confirm your password" required>
                                         </div>                            
                                         <br />
-                                        <a href="account_dashboard.html" class="btn btn-primary">Create account</a>
-
+                                        <div class="text-center">
+                                            <a href="account_dashboard.html" class="btn btn-primary">Create account</a>
+                                        </div>
                                     </div>
                                 </div>
-
-
-
 
                             </div>
 
