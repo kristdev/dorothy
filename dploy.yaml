@@ -3,6 +3,6 @@ dorothy_production:
     user: 				kristdev
     pass: 				temporary@43321
     check: 				true
-    exclude: 			["dploy.yaml", "composer.json", "composer.lock", ".bowerrc"]
+    exclude: 			["dploy.yaml", "composer.json", "composer.lock", ".bowerrc", "assets/sql/*"]
     path:
         remote: 		public_html/mproject/files/dorothy/

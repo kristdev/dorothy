@@ -60,7 +60,9 @@ class Register extends MX_Controller {
 		if($this->form_validation->run()==false){
 			$this->index();
 		}else{
-			
+			$first_name=$this->input->post('first_name');
+			$last_name=$this->input->post('last_name');
+			$email=$this->input->post('email');
 		}
 	}
 
