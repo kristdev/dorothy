@@ -147,5 +147,7 @@ class Register extends MX_Controller {
 
 		}
 	}
+
+	
 }
 ?>

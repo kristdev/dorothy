@@ -6,7 +6,6 @@ class Register extends MX_Controller {
    	public function __construct(){
         parent::__construct();
         // Your own constructor code
-	    $this->load->model('mdl_register');
    	}
 
    	public function index(){
@@ -84,19 +83,9 @@ class Register extends MX_Controller {
 					break;
 			}
 			$group=array($val);
-			// $this->ion_auth->register($username, $password, $email, $additional_data, $group);
+			$this->ion_auth->register($username, $password, $email, $additional_data, $group);
 
-			$table='users';
-			$field='activation_code';
-			$where=array(
-					'first_name'		=>		$first_name,
-					'last_name'			=>		$last_name
-				);
-			$queryresults=$this->mdl->register->get_somewhereresults($table,$field,$where);
-			foreach($queryresults->result() as $row){
-				$activation_code=$row->activation_code;
-			}
-
+			require base_url().'vendor/phpmailer/PHPMailerAutoload.php';
 			$mail = new PHPMailer;
 			$mail->From = 'registration@dorothy.com';
 			$mail->FromName = 'Dorothy';
@@ -105,34 +94,10 @@ class Register extends MX_Controller {
 			$mail->isHTML(true);                                  // Set email format to HTML
 
 			$mail->Subject = 'Your registration, '.$email;
-			$mail->Body    = '
-				<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-				<html>
-				<head>
-				<title></title>
-				<meta name="" content="">
-				</head>
-				<body>
-				<table width="800px" bordercolor="#eeeeee" border="1px" align="center">
-					<tr bgcolor="#c7c8c4">
-						<td align="right">&nbsp; <strong>Dorothy Registration Information</strong> &nbsp;</td>
-					</tr>
-					<tr>
-						<td style="padding: 5px;">
-							Welcome to Dorothy Search engine <b>'.$username.'</b>, your registration has been accepted.<br/> your account will validated in 24 hours, your temporary username is <strong>'.$username.'.</strong>, your password is <strong>'.$password.'</strong> <br />
-							<strong><u>Important</u>:</strong> your registration will be possible only if your informations mentionned heve been previously mentionned by a university or school registered. <br />
-							If it is case, you will see the confirm link: <a href="http//kristdev.com/mproject/files/dorothy/register/confirm_user/'.$activation_code.'">http//kristdev.com/mproject/files/dorothy/register/confirm_user/'.$activation_code.'</a>
-						</td>
-					</tr>
-					<tr>
-						<td></td>
-					</tr>
-				</table>
-				</body>
-				</html>
-			';
+			$mail->Body    = 'Welcome to Dorothy Search engine <b>'.$username.'</b>, your registration has been accepted.<br/> your account will validated in 24 hours, your username is <strong>'.$username.'</strong>, your password is <strong>'.$password.'</strong>';
+			$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 			if(!$mail->send()) {
-			    echo 'Message could not be sent. ';
+			    echo 'Message could not be sent.';
 			    echo 'Mailer Error: ' . $mail->ErrorInfo;
 			}else {
 			    echo 'Message has been sent';
@@ -147,5 +112,7 @@ class Register extends MX_Controller {
 
 		}
 	}
+
+	
 }
 ?>

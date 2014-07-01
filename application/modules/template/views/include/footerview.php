@@ -5,7 +5,7 @@
 
             <div class="col-sm-4 col-xs-12">
                 <p><strong>&copy; MTN Foundation 2014</strong></p>
-                <p>All rights reserved, <a href="http://kristdev.com">By kristdev</a> </p>
+                <p>All rights reserved, <a href="http://kristdev.com">Powered By kristdev</a> </p>
             </div>			
 
             <div class="col-sm-8 col-xs-12">

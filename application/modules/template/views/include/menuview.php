@@ -23,7 +23,7 @@
         <div class="collapse navbar-collapse">
 
             <ul class="nav navbar-nav navbar-right visible-xs">
-                <li class="active"><a href="#">Home</a></li>
+                <li class="active"><a href="./">Home</a></li>
                 <li><a href="my_account.html">Login</a></li>
                 <li><a href="register.html">Register</a></li>
                 <!-- <li><a href="listings.html">Listings</a></li>
@@ -34,7 +34,7 @@
                 <div class="row">
 
                     <div class="pull-right">
-                        <a href="./" class="">Home</a> |
+                        <a href="<?php echo base_url(); ?>" class="">Home</a> |
                         <a data-toggle="modal" data-target="#modalLogin"  href="#">Login</a> | 
                         <a href="<?php echo base_url(); ?>register">Register</a> <!-- | 
                         <a href="listings.html">Listings</a> | 
