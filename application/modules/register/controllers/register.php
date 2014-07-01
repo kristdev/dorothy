@@ -87,13 +87,14 @@ class Register extends MX_Controller {
 			$this->ion_auth->register($username, $password, $email, $additional_data, $group);
 
 			$table='users';
-			$field='activation_code';
+			$field=array('id','activation_code');
 			$where=array(
 					'first_name'		=>		$first_name,
 					'last_name'			=>		$last_name
 				);
 			$queryresults=$this->mdl_register->get_somewhereresults($table,$field,$where);
 			foreach($queryresults->result() as $row){
+				$id=$row->id;
 				$activation_code=$row->activation_code;
 			}
 
@@ -113,7 +114,7 @@ class Register extends MX_Controller {
 				<meta name="" content="">
 				</head>
 				<body>
-				<table width="800px" bordercolor="#eeeeee" border="1px" align="center">
+				<table width="800px" bordercolor="#eeeeee" border="1px" align="center" style="margin-top:20px;">
 					<tr bgcolor="#c7c8c4">
 						<td align="right">&nbsp; <strong>Dorothy Registration Information</strong> &nbsp;</td>
 					</tr>
@@ -121,7 +122,7 @@ class Register extends MX_Controller {
 						<td style="padding: 5px;">
 							Welcome to Dorothy Search engine <b>'.$username.'</b>, your registration has been accepted.<br/> your account will validated in 24 hours, your temporary username is <strong>'.$username.'.</strong>, your password is <strong>'.$password.'</strong> <br />
 							<strong><u>Important</u>:</strong> your registration will be possible only if your informations mentionned heve been previously mentionned by a university or school registered. <br />
-							If it is case, you will see the confirm link: <a href="http//kristdev.com/mproject/files/dorothy/register/confirm_user/'.$activation_code.'">http//kristdev.com/mproject/files/dorothy/register/confirm_user/'.$activation_code.'</a>
+							If it is case, you will see the confirm link: <a href="http//kristdev.com/mproject/files/dorothy/register/confirm_user/'.$id.'/'.$activation_code.'">http//kristdev.com/mproject/files/dorothy/register/confirm_user/'.$id.'/'.$activation_code.'</a>
 						</td>
 					</tr>
 					<tr>
@@ -134,6 +135,7 @@ class Register extends MX_Controller {
 			if(!$mail->send()) {
 			    echo 'Message could not be sent. ';
 			    echo 'Mailer Error: ' . $mail->ErrorInfo;
+			    
 			}else {
 			    echo 'Message has been sent';
 			}
@@ -146,6 +148,10 @@ class Register extends MX_Controller {
 			echo Modules::run('template/myapp',$data);
 
 		}
+	}
+
+	public function confirm_user($id,$code){
+
 	}
 }
 ?>
