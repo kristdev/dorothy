@@ -92,7 +92,7 @@ class Register extends MX_Controller {
 					'first_name'		=>		$first_name,
 					'last_name'			=>		$last_name
 				);
-			$queryresults=$this->mdl->register->get_somewhereresults($table,$field,$where);
+			$queryresults=$this->mdl_register->get_somewhereresults($table,$field,$where);
 			foreach($queryresults->result() as $row){
 				$activation_code=$row->activation_code;
 			}
