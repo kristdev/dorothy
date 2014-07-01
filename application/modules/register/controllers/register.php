@@ -84,7 +84,7 @@ class Register extends MX_Controller {
 					break;
 			}
 			$group=array($val);
-			// $this->ion_auth->register($username, $password, $email, $additional_data, $group);
+			$this->ion_auth->register($username, $password, $email, $additional_data, $group);
 
 			$table='users';
 			$field='activation_code';
