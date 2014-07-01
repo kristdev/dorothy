@@ -150,8 +150,30 @@ class Register extends MX_Controller {
 		}
 	}
 
-	public function confirm_user($id,$code){
+	//activate the user
+	function confirm_user($id, $code=false)
+	{
+		if ($code !== false)
+		{
+			$activation = $this->ion_auth->activate($id, $code);
+		}
+		else if ($this->ion_auth->is_admin())
+		{
+			$activation = $this->ion_auth->activate($id);
+		}
 
+		if ($activation)
+		{
+			//redirect them to the auth page
+			$this->session->set_flashdata('message', $this->ion_auth->messages());
+			redirect('http://kristdev.com/mproject/files/dorothy');
+		}
+		else
+		{
+			//redirect them to the forgot password page
+			$this->session->set_flashdata('message', $this->ion_auth->errors());
+			redirect('http://kristdev.com/mproject/files/dorothy');
+		}
 	}
 }
 ?>
