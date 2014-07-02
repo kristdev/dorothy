@@ -75,15 +75,15 @@ class Register extends MX_Controller {
 			switch($groupe){
 				case 'etudiant':
 					$val=5;
-					$tablecond='vm_etudiant';
+					$tablecond='vm_universite_etudiant';
 					break;
 				case 'enseignant':
 					$val=4;
-					$tablecond='vm_enseignant';
+					$tablecond='vm_universite_enseignant';
 					break;
 				case 'bibliothecaire':
 					$val=3;
-					$tablecond='vm_bibliothecaire';
+					$tablecond='vm_universite_bibliothecaire';
 					break;
 			}
 
