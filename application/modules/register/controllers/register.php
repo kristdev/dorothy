@@ -146,14 +146,15 @@ class Register extends MX_Controller {
 					</html>
 				';
 				if(!$mail->send()) {
-				    echo 'Message could not be sent. ';
-				    echo 'Mailer Error: ' . $mail->ErrorInfo;
+				    // echo 'Message could not be sent. ';
+				    // echo 'Mailer Error: ' . $mail->ErrorInfo;
+				    $data['message_warningRegistration']="Message could not be sent";
 				    
 				}else {
-				    echo 'Message has been sent';
+				    // echo 'Message has been sent';
+				    $data['message_confirmRegistration']='Check your mail to confirm your registration '.$username;
 				}
 
-				$data['message_confirmRegistration']='Check your mail to confirm your registration '.$username;
 			}
 			
 			$data['module']='register';
