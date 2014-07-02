@@ -93,7 +93,7 @@ class Register extends MX_Controller {
 			);
 			$querycondresults=$this->mdl_register->get_allwhereresults($tablecond,$wherecond);
 			$nbquerycondresults=$querycondresults->num_rows();
-			if($nbquerycondresults!==0){
+			if($nbquerycondresults==0){
 				$data['message_warningRegistration']="Your informations have not been previously registered by universities, you can not use this app!";
 			}else{
 				$group=array($val);
@@ -135,7 +135,7 @@ class Register extends MX_Controller {
 							<td style="padding: 5px;">
 								Welcome to Dorothy Search engine <b>'.$username.'</b>, your registration has been accepted.<br/> your account will validated in 24 hours, your temporary username is <strong>'.$username.'.</strong>, your password is <strong>'.$password.'</strong> <br />
 								<strong><u>Important</u>:</strong> your registration will be possible only if your informations mentionned heve been previously mentionned by a university or school registered. <br />
-								If it is case, you will see the confirm link: <a href="http//kristdev.com/mproject/files/dorothy/register/confirm_user/'.$id.'/'.$activation_code.'">http//kristdev.com/mproject/files/dorothy/register/confirm_user/'.$id.'/'.$activation_code.'</a>
+								If it is case, you will see the confirm link: <a href="http://www.kristdev.com/mproject/files/dorothy/register/confirm_user/'.$id.'/'.$activation_code.'">http://www.kristdev.com/mproject/files/dorothy/register/confirm_user/'.$id.'/'.$activation_code.'</a>
 							</td>
 						</tr>
 						<tr>
