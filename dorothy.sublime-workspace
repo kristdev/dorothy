@@ -1,0 +1,1006 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"array",
+				"array"
+			],
+			[
+				"qu",
+				"queryresults"
+			],
+			[
+				"la",
+				"last_name"
+			],
+			[
+				"e",
+				"enctype	Attr"
+			],
+			[
+				"loa",
+				"load_model	CI - Load Model"
+			],
+			[
+				"load",
+				"load_model	CI - Load Model"
+			],
+			[
+				"bootstra",
+				"bootstrap-select"
+			],
+			[
+				"fsi",
+				"font-size"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"my",
+				"my_blue"
+			],
+			[
+				"my_",
+				"my_blue"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"br",
+				"border-radius"
+			],
+			[
+				"angu",
+				"angular-paginate-anything"
+			],
+			[
+				"pa",
+				"paginate-anything"
+			],
+			[
+				"angular-",
+				"angular-paginate-anything"
+			],
+			[
+				"angular",
+				"angular-table"
+			],
+			[
+				"sear",
+				"searchengine"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"cl",
+				"class"
+			],
+			[
+				"load-",
+				"this->load->view	\\$this->load->view"
+			],
+			[
+				"pars",
+				"parser"
+			],
+			[
+				"bas",
+				"base_url"
+			],
+			[
+				"base_",
+				"base_url"
+			],
+			[
+				"form_valid",
+				"this->form_validation->run	\\$this->form_validation->run"
+			],
+			[
+				"form_va",
+				"this->form_validation->set_rules	\\$this->form_validation->set_rules"
+			],
+			[
+				"form_vali",
+				"this->form_validation->run	\\$this->form_validation->run"
+			],
+			[
+				"_",
+				"_post	CI - $_POST"
+			],
+			[
+				"a",
+				"action	Attr"
+			],
+			[
+				"valid",
+				"valid_email"
+			],
+			[
+				"input",
+				"this->input->post	\\$this->input->post"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"myxajax",
+				"myxajax_newsletter_checkup"
+			],
+			[
+				"lo",
+				"load_view	CI - Load View"
+			],
+			[
+				"bgi",
+				"background-image"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"b-i",
+				"background-image"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"c",
+				"class	Attr"
+			],
+			[
+				"set",
+				"setTimeout"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "application/config/autoload.php",
+			"settings":
+			{
+				"buffer_size": 3142,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/modules/home/controllers/home.php",
+			"settings":
+			{
+				"buffer_size": 592,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/modules/register/controllers/register.php",
+			"settings":
+			{
+				"buffer_size": 5456,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/modules/register/models/mdl_register.php",
+			"settings":
+			{
+				"buffer_size": 4024,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/tutos/DOCS/frameworks/php frameworks/codeigniter/ion auth/CodeIgniter-Ion-Auth-2/controllers/auth.php",
+			"settings":
+			{
+				"buffer_size": 25089,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/modules/template/controllers/template.php",
+			"settings":
+			{
+				"buffer_size": 624,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/modules/template/views/myapppage.php",
+			"settings":
+			{
+				"buffer_size": 2273,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/modules/template/views/registerpage.php",
+			"settings":
+			{
+				"buffer_size": 10282,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/UwAmp/www/kdmobil/applications/office/modules/login/controllers/login.php",
+			"settings":
+			{
+				"buffer_size": 4923,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/SEMPAI/Downloads/kristdev_dorothy(2).sql",
+			"settings":
+			{
+				"buffer_size": 54824,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: p",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"assets/js"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/UwAmp/www/dorothy/application/config/config.php",
+		"/D/UwAmp/www/dorothy/application/config/database.php",
+		"/D/UwAmp/www/dorothy/index.php",
+		"/D/tutos/DOCS/frameworks/php frameworks/codeigniter/ion auth/CodeIgniter-Ion-Auth-2/sql/ion_auth.sql",
+		"/C/Users/SEMPAI/AppData/Local/Temp/scp26935/public_html/mproject/files/dorothy/application/config/database.php",
+		"/D/UwAmp/www/dorothy/application/modules/register/models/mdl_register.php",
+		"/D/UwAmp/www/dorothy/application/modules/template/views/include/menuview.php",
+		"/D/UwAmp/www/dorothy/application/modules/template/views/include/footerview.php",
+		"/C/Users/SEMPAI/Downloads/kristdev_dorothy.sql",
+		"/D/UwAmp/www/dorothy/dploy.yaml",
+		"/D/UwAmp/www/dorothy/application/modules/login/controllers/login.php",
+		"/D/tutos/DOCS/frameworks/php frameworks/codeigniter/ion auth/CodeIgniter-Ion-Auth-2/controllers/auth.php",
+		"/D/UwAmp/www/dorothy/application/config/ion_auth.php",
+		"/D/UwAmp/www/dorothy/application/modules/register/controllers/register.php",
+		"/D/UwAmp/www/dorothy/application/modules/login/models/ion_auth_register.php",
+		"/D/UwAmp/www/dorothy/application/modules/login/views/loginview.php",
+		"/D/UwAmp/www/dorothy/application/modules/template/views/registerpage.php",
+		"/D/UwAmp/www/dorothy/application/modules/tagscloud/controllers/tagscloud.php",
+		"/D/UwAmp/www/dorothy/application/modules/tagscloud/views/tagscloudview.php",
+		"/D/UwAmp/www/dorothy/assets/css/mystylesheet.css",
+		"/D/UwAmp/www/dorothy/assets/css/scss/mystylesheet.scss",
+		"/C/Users/SEMPAI/AppData/Local/Temp/scp11460/public_html/mproject/files/dorothy/application/modules/template/views/homepage.php",
+		"/D/UwAmp/www/dorothy/assets/bootstrap-select/bootstrap-select.min.js",
+		"/D/UwAmp/www/dorothy/assets/bootstrap/dist/css/bootstrap.css",
+		"/C/Users/SEMPAI/AppData/Local/Temp/scp42814/public_html/infos.html",
+		"/C/Users/SEMPAI/AppData/Local/Temp/scp13776/public_html/index.html",
+		"/D/UwAmp/www/dorothy/application/modules/template/views/test.php",
+		"/D/UwAmp/www/dorothy/application/modules/template/views/homepage.php~RF1df2c08.TMP",
+		"/D/UwAmp/www/dorothy/application/modules/template/views/homepage.php~RF202412e.TMP",
+		"/D/UwAmp/www/dorothy/config.rb",
+		"/D/UwAmp/www/dorothy/assets/css/scss/config.rb",
+		"/D/UwAmp/www/dorothy/application/modules/home/views/homeview.php",
+		"/D/UwAmp/www/netskools1.0/application/modules/login/controllers/login.php",
+		"/D/UwAmp/www/netskools1.0/application/modules/login/views/loginpage.php",
+		"/D/UwAmp/www/netskools1.0/application/modules/dashboard/controllers/dashboard.php",
+		"/D/UwAmp/www/netskools1.0/application/modules/dashboard/views/dashboard_student.php",
+		"/D/UwAmp/www/netskools1.0/application/modules/template/views/student.php",
+		"/D/UwAmp/www/dorothy/assets/css/stylesheet.css",
+		"/D/UwAmp/www/dorothy/application/modules/template/views/myapppage.php",
+		"/D/UwAmp/www/netskools1.0/application/modules/template/controllers/template.php",
+		"/D/UwAmp/www/dorothy/application/modules/template/views/home.php",
+		"/D/UwAmp/www/netskools1.0/application/modules/template/views/login.php",
+		"/D/UwAmp/www/netskools1.0/application/modules/authentification/controllers/authentification.php",
+		"/D/UwAmp/www/dorothy/assets/bootstrap/.bower.json",
+		"/C/Users/SEMPAI/AppData/Local/Temp/scp15958/public_html/mproject/files/dorothy/application/modules/home/controllers/home.php",
+		"/D/UwAmp/www/dorothy/application/config/routes.php",
+		"/D/UwAmp/www/dorothy/application/config/profiler.php",
+		"/C/Users/SEMPAI/AppData/Local/Temp/scp08718/public_html/mproject/files/dorothy/application/modules/home/views/homeview.php",
+		"/C/Users/SEMPAI/AppData/Local/Temp/scp08418/public_html/mproject/files/dorothy/application/modules/home/controllers/home.php",
+		"/D/UwAmp/www/dorothy/composer.json",
+		"/D/UwAmp/www/dorothy/.bowerc",
+		"/D/UwAmp/www/dorothy/composer.lock",
+		"/D/UwAmp/www/searchengine/application/modules/search/controllers/search.php",
+		"/D/UwAmp/www/searchengine/assets/ng-simplePagination/README.md",
+		"/D/UwAmp/www/searchengine/assets/ng-simplePagination/LICENSE.txt",
+		"/D/UwAmp/www/searchengine/assets/angular-paginate-anything/src/paginate-anything.js",
+		"/D/UwAmp/www/searchengine/scripts/booklist.js",
+		"/D/UwAmp/www/searchengine/application/modules/search/models/mdl_search.php",
+		"/D/UwAmp/www/searchengine/assets/angular-paginate-anything/tpl/paginate-anything.html",
+		"/D/UwAmp/www/searchengine/assets/angular-paginate-anything/tpl/ici.html",
+		"/D/UwAmp/www/searchengine/assets/angular-paginate-anything/README.md",
+		"/D/UwAmp/www/searchengine/application/modules/welcome/controllers/welcome.php",
+		"/D/UwAmp/www/searchengine/application/modules/welcome/views/welcome.php~RFcfbf3d.TMP",
+		"/D/UwAmp/www/searchengine/application/modules/welcome/views/welcome.php~RF64fc6f7.TMP",
+		"/D/UwAmp/www/searchengine/welcomehtml.html",
+		"/D/UwAmp/www/searchengine/application/modules/welcome/views/welcomehtml.html",
+		"/D/UwAmp/www/searchengine/application/modules/welcome/models/mdl_welcome.php",
+		"/D/UwAmp/www/searchengine/index.php",
+		"/D/UwAmp/www/searchengine/.bowerrc",
+		"/D/GITRep/my_projects/hmvc_xajax_ci/composer.json",
+		"/D/GITRep/my_projects/hmvc_xajax_ci/README.md",
+		"/D/GITRep/my_projects/hmvc_xajax_ci/.gitignore",
+		"/D/GITRep/my_projects/TheLibrary/.gitignore",
+		"/D/GITRep/my_projects/TheLibrary/.gitattributes",
+		"/D/GITRep/my_projects/hmvc_xajax_ci/src/codeigniter/hmvc_xajax_ci.php",
+		"/D/GITRep/my_projects/hmvc_xajax_ci/src/composer.json",
+		"/D/GITRep/my_projects/hmvc_xajax_ci/.htaccess",
+		"/D/UwAmp/www/thelibrarytest/vendor/autoload.php",
+		"/D/UwAmp/www/thelibrarytest/vendor/composer/autoload_real.php",
+		"/D/UwAmp/www/thelibrarytest/vendor/ellislab/codeigniter/composer.json",
+		"/D/UwAmp/www/thelibrarytest/composer.json",
+		"/D/GITRep/ssh_folders/sempai_ssh/id_rsa.pub",
+		"/C/wamp/bin/php/php5.4.16/php.ini",
+		"/C/Users/SEMPAI/AppData/Local/Temp/scp40347/public_html/office/index.php",
+		"/C/Users/SEMPAI/AppData/Local/Temp/scp32908/public_html/applications/frontend/modules/pricing/views/pricingpage.php",
+		"/C/wamp/www/thelibrary/assets/frontoffice/font-awesome/4.0.3/css/font-awesome.css",
+		"/C/wamp/www/thelibrary/applications/frontoffice/config/routes.php",
+		"/C/Users/SEMPAI/AppData/Local/Temp/scp23042/public_html/applications/frontend/config/config.php",
+		"/C/Users/SEMPAI/AppData/Local/Temp/scp23409/public_html/applications/frontend/config/database.php",
+		"/C/wamp/www/thelibrary/underconstruction/index.php",
+		"/C/wamp/www/thelibrary/private/index.php",
+		"/C/wamp/www/thelibrary/backoffice/index.php",
+		"/C/wamp/www/thelibrary/index.php",
+		"/C/Users/SEMPAI/AppData/Local/Temp/scp40546/public_html/application/modules/fournitures/views/fourniturespage.php",
+		"/C/Users/SEMPAI/AppData/Local/Temp/scp11781/public_html/application/modules/fournitures/views/fourniturespage.php",
+		"/C/wamp/www/kdmobil/office/backend/modules/profile/controllers/profile.php",
+		"/C/wamp/www/kdmobil/office/backend/modules/profile/views/profilepage.php",
+		"/C/wamp/www/kdmobil/office/backend/modules/login/controllers/login.php",
+		"/C/Users/SEMPAI/AppData/Local/Temp/scp56301/public_html/application/modules/services/views/servicespage.php",
+		"/C/Users/SEMPAI/AppData/Local/Temp/scp14516/public_html/application/modules/fournitures/views/fourniturespage.php",
+		"/C/wamp/www/kdmobil/office/backend/modules/login/views/loginpage.php",
+		"/C/wamp/www/kdmobil/office/backend/config/routes.php",
+		"/C/wamp/www/kdmobil/office/backend/modules/dashboard/controllers/dashboard.php",
+		"/C/wamp/www/kdmobil/office/index.php",
+		"/C/wamp/bin/apache/Apache2.4.4/conf/extra/httpd-vhosts.conf",
+		"/C/wamp/www/kdmobil/office/backend/config/config.php",
+		"/C/wamp/bin/apache/Apache2.4.4/conf/httpd.conf",
+		"/C/Users/SEMPAI/Desktop/hosts",
+		"/C/wamp/www/kdmobil/index.php",
+		"/C/wamp/www/kdmobil/application/backend/modules/dashboard/controllers/dashboard.php",
+		"/C/wamp/www/kdmobil/application/backend/config/config.php",
+		"/C/wamp/www/kdmobil/application/backend/modules/dashboard/views/dashboardpage.php",
+		"/C/wamp/www/kdmobil/application/backend/config/autoload.php",
+		"/C/wamp/www/kdmobil/assets/backend/assets/assets/js/ace-elements.min.js",
+		"/C/wamp/www/kdmobil/assets/backend/assets/assets/js/ace.min.js",
+		"/C/wamp/www/kdmobil/application/backend/config/routes.php",
+		"/C/wamp/www/kdmobil/assets/backend/assets/assets/css/ace.min.css",
+		"/C/wamp/www/kdmobil/assets/frontend/assets/css/style.css",
+		"/C/wamp/www/kdmobil/application/frontend/modules/home/controllers/home.php",
+		"/C/wamp/www/kdmobil/application/frontend/modules/home/views/homepage.php",
+		"/C/wamp/www/kdmobil/application/frontend/modules/pricing/views/pricingpage.php",
+		"/C/Users/SEMPAI/AppData/Local/Temp/scp12648/public_html/application/frontend/config/database.php",
+		"/C/wamp/www/kdmobil/application/frontend/modules/pricing/controllers/pricing.php",
+		"/C/wamp/www/kdmobil/application/frontend/modules/topmenu/views/topmenupage.php",
+		"/C/wamp/www/kdmobil/application/frontend/modules/contact/controllers/contact.php",
+		"/C/wamp/www/kdmobil/application/frontend/modules/contact/views/contactpage.php",
+		"/C/wamp/www/kdmobil/application/frontend/modules/about_faq/views/about_faqpage.php",
+		"/C/wamp/www/kdmobil/application/frontend/modules/footer/views/footerpage.php"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"activation_code",
+			"code",
+			"getMessage()",
+			"error",
+			"loa",
+			"folder-open",
+			">\n",
+			"container-vid",
+			"images",
+			"per-page",
+			"\n",
+			"page",
+			"url",
+			"per-page",
+			"}",
+			"{",
+			"lectures:''",
+			"'id'",
+			":",
+			"span",
+			"p",
+			"div",
+			"p",
+			"<div class=\"well\">",
+			"<div class=\"clearfix\"></div>",
+			"col-md-3",
+			"include_path",
+			"<?php echo base_url(); ?>assets/backend/assets/",
+			"assets/",
+			"vhost",
+			"<?php echo base_url(); ?>",
+			"assets/backend/",
+			"<?php echo base_url(); ?>",
+			"virtual host",
+			"ace-settings-navbar",
+			" Welcome to Ace (v1.2) , the lightweight, feature-rich and easy to use admin template. ",
+			"Welcome to Ac",
+			"ace-settings-navbar",
+			"ace",
+			"ace-se",
+			"navbar",
+			"<?php echo base_url(); ?>assets/backend/",
+			"assets/",
+			"frontend//",
+			"assets",
+			"<?php echo base_url(); ?>",
+			"portfolio_single_project.html",
+			"logo_client",
+			"assets/frontend",
+			"images/",
+			"2790B0",
+			"assets/",
+			">\n",
+			"message",
+			"div",
+			"message",
+			"#E7D57F",
+			"#008d86",
+			"<?php echo base_url('assets'); ?>",
+			"\">\n",
+			"<section class=\"page1\">\n            <div class=\"page_container\">\n              <h1>One Page Scroll</h1>\n              <h2>Create an Apple-like one page scroller website (iPhone 5S website) with One Page Scroll plugin</h2>\n              <p class=\"credit\">Created by <a href=\"http://www.thepetedesign.com\">Pete R.</a>, Founder of <a href=\"http://www.bucketlistly.com\" target=\"_blank\">BucketListly</a></p>\n              <div class=\"btns\">\n                <a class=\"reload btn\" href=\"https://github.com/peachananr/onepage-scroll\">Download on Github</a>\n              </div>\n            </div>\n            <img src=\"phones.png\" alt=\"phones\">\n          </section>",
+			"<div class=\"er\"></div>",
+			">\n",
+			"<section class=\"page1\">\n            <div class=\"container\"></div>\n          </section>",
+			"<link href=\"assets/css/sticky-footer-navbar.css\" rel=\"stylesheet\">",
+			"\">\n",
+			"thumnails",
+			">img",
+			">js",
+			">css",
+			"assets/",
+			"assets",
+			"<link href=\"<?php echo base_url('assets/'); ?>css/bootstrap.css\" rel=\"stylesheet\">",
+			"\">\n",
+			"block",
+			"component",
+			"rt-ja",
+			"background",
+			"background-color",
+			"navbar",
+			"nav",
+			"background-",
+			"navbar-brand",
+			"=\"\">\n",
+			"div",
+			")\n",
+			"12",
+			"row",
+			"div",
+			"row"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"fa-folder-open",
+			"]",
+			"[",
+			"|",
+			"<?php echo base_url(); ?>assets/backend/assets/assets/",
+			"<?php echo base_url(); ?>assets/backend/assets/",
+			"/",
+			"",
+			"../assets/backend/",
+			"",
+			"<?php echo base_url(); ?>assets/backend/assets/",
+			"<?php echo base_url(); ?>assets/frontend/assets/",
+			"frontend/",
+			"<?php echo base_url(); ?>assets/frontend/",
+			"#",
+			"logo_netskools",
+			"<?php echo base_url(); ?>assets/frontend",
+			"assets/frontend/images/",
+			"EEA50A",
+			"assets/frontend/assets/",
+			"assets/frontend/assets",
+			"assets/frontend/",
+			"#E7D57F",
+			"#6FC7DF",
+			"assets",
+			"thumbnails",
+			">/img",
+			">/js",
+			">/css",
+			"assets",
+			"assets/",
+			"body",
+			"titre"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "application/config/autoload.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3142,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3057,
+								3057
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2050.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "application/modules/home/controllers/home.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 592,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								207,
+								207
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 66.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "application/modules/register/controllers/register.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5456,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2193,
+								2193
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1770.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "application/modules/register/models/mdl_register.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 4024,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1056.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/D/tutos/DOCS/frameworks/php frameworks/codeigniter/ion auth/CodeIgniter-Ion-Auth-2/controllers/auth.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25089,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10714,
+								11312
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8700.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "application/modules/template/controllers/template.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 624,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								258,
+								258
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 39.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "application/modules/template/views/myapppage.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1325,
+								1325
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 660.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "application/modules/template/views/registerpage.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10282,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9311,
+								9311
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4246.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/D/UwAmp/www/kdmobil/applications/office/modules/login/controllers/login.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4923,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2629,
+								2645
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1474.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/Users/SEMPAI/Downloads/kristdev_dorothy(2).sql",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 54824,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								52971,
+								52971
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SQL/SQL.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 33550.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 54.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.578006500542,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "dorothy.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 288.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -67,7 +67,15 @@
                                         </div>
                                         <?php        
                                             }
-                                         ?>
+                                            if(isset($message_warningRegistration)){
+                                        ?>
+                                        <div class="alert alert-warning alert-dismissable">
+                                          <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                          <strong>Alert!</strong> <?php echo $message_warningRegistration; ?>
+                                        </div>
+                                        <?php
+                                            }
+                                        ?>
                                     </div>
                                 </div>
 

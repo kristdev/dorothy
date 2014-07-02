@@ -75,72 +75,87 @@ class Register extends MX_Controller {
 			switch($groupe){
 				case 'etudiant':
 					$val=5;
+					$tablecond='vm_etudiant';
 					break;
 				case 'enseignant':
 					$val=4;
+					$tablecond='vm_enseignant';
 					break;
 				case 'bibliothecaire':
 					$val=3;
+					$tablecond='vm_bibliothecaire';
 					break;
 			}
-			$group=array($val);
-			$this->ion_auth->register($username, $password, $email, $additional_data, $group);
 
-			$table='users';
-			$field=array('id','activation_code');
-			$where=array(
-					'first_name'		=>		$first_name,
-					'last_name'			=>		$last_name
-				);
-			$queryresults=$this->mdl_register->get_somewhereresults($table,$field,$where);
-			foreach($queryresults->result() as $row){
-				$id=$row->id;
-				$activation_code=$row->activation_code;
+			$wherecond=array(
+				'first_name'		=>		$first_name,
+				'last_name'			=>		$last_name
+			);
+			$querycondresults=$this->mdl_register->get_allwhereresults($tablecond,$wherecond);
+			$nbquerycondresults=$querycondresults->num_rows();
+			if($nbquerycondresults!==0){
+				$data['message_warningRegistration']="Your informations have not been previously registered by universities, you can not use this app!";
+			}else{
+				$group=array($val);
+				$this->ion_auth->register($username, $password, $email, $additional_data, $group);
+
+				$table='users';
+				$field=array('id','activation_code');
+				$where=array(
+						'first_name'		=>		$first_name,
+						'last_name'			=>		$last_name
+					);
+				$queryresults=$this->mdl_register->get_somewhereresults($table,$field,$where);
+				foreach($queryresults->result() as $row){
+					$id=$row->id;
+					$activation_code=$row->activation_code;
+				}
+
+				$mail = new PHPMailer;
+				$mail->From = 'registration@dorothy.com';
+				$mail->FromName = 'Dorothy';
+				$mail->addAddress('pambeaba@kristdev.com', $username);
+				$mail->addReplyTo('info@dorothy.com', 'Dorothy');
+				$mail->isHTML(true);                                  // Set email format to HTML
+
+				$mail->Subject = 'Your registration, '.$email;
+				$mail->Body    = '
+					<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+					<html>
+					<head>
+					<title></title>
+					<meta name="" content="">
+					</head>
+					<body>
+					<table width="800px" bordercolor="#eeeeee" border="1px" align="center" style="margin-top:20px;">
+						<tr bgcolor="#c7c8c4">
+							<td align="right">&nbsp; <strong>Dorothy Registration Information</strong> &nbsp;</td>
+						</tr>
+						<tr>
+							<td style="padding: 5px;">
+								Welcome to Dorothy Search engine <b>'.$username.'</b>, your registration has been accepted.<br/> your account will validated in 24 hours, your temporary username is <strong>'.$username.'.</strong>, your password is <strong>'.$password.'</strong> <br />
+								<strong><u>Important</u>:</strong> your registration will be possible only if your informations mentionned heve been previously mentionned by a university or school registered. <br />
+								If it is case, you will see the confirm link: <a href="http//kristdev.com/mproject/files/dorothy/register/confirm_user/'.$id.'/'.$activation_code.'">http//kristdev.com/mproject/files/dorothy/register/confirm_user/'.$id.'/'.$activation_code.'</a>
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+						</tr>
+					</table>
+					</body>
+					</html>
+				';
+				if(!$mail->send()) {
+				    echo 'Message could not be sent. ';
+				    echo 'Mailer Error: ' . $mail->ErrorInfo;
+				    
+				}else {
+				    echo 'Message has been sent';
+				}
+
+				$data['message_confirmRegistration']='Check your mail to confirm your registration '.$username;
 			}
-
-			$mail = new PHPMailer;
-			$mail->From = 'registration@dorothy.com';
-			$mail->FromName = 'Dorothy';
-			$mail->addAddress('pambeaba@kristdev.com', $username);
-			$mail->addReplyTo('info@dorothy.com', 'Dorothy');
-			$mail->isHTML(true);                                  // Set email format to HTML
-
-			$mail->Subject = 'Your registration, '.$email;
-			$mail->Body    = '
-				<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-				<html>
-				<head>
-				<title></title>
-				<meta name="" content="">
-				</head>
-				<body>
-				<table width="800px" bordercolor="#eeeeee" border="1px" align="center" style="margin-top:20px;">
-					<tr bgcolor="#c7c8c4">
-						<td align="right">&nbsp; <strong>Dorothy Registration Information</strong> &nbsp;</td>
-					</tr>
-					<tr>
-						<td style="padding: 5px;">
-							Welcome to Dorothy Search engine <b>'.$username.'</b>, your registration has been accepted.<br/> your account will validated in 24 hours, your temporary username is <strong>'.$username.'.</strong>, your password is <strong>'.$password.'</strong> <br />
-							<strong><u>Important</u>:</strong> your registration will be possible only if your informations mentionned heve been previously mentionned by a university or school registered. <br />
-							If it is case, you will see the confirm link: <a href="http//kristdev.com/mproject/files/dorothy/register/confirm_user/'.$id.'/'.$activation_code.'">http//kristdev.com/mproject/files/dorothy/register/confirm_user/'.$id.'/'.$activation_code.'</a>
-						</td>
-					</tr>
-					<tr>
-						<td></td>
-					</tr>
-				</table>
-				</body>
-				</html>
-			';
-			if(!$mail->send()) {
-			    echo 'Message could not be sent. ';
-			    echo 'Mailer Error: ' . $mail->ErrorInfo;
-			    
-			}else {
-			    echo 'Message has been sent';
-			}
-
-			$data['message_confirmRegistration']='Check your mail to confirm your registration '.$username;
+			
 			$data['module']='register';
 			$data['view']='registerpage';
 			$data['description']='Moteur de recherche destiné aux universités du Cameroun';
