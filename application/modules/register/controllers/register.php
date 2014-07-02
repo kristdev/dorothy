@@ -88,8 +88,8 @@ class Register extends MX_Controller {
 			}
 
 			$wherecond=array(
-				'first_name'		=>		$first_name,
-				'last_name'			=>		$last_name
+				'nom'		=>		$first_name,
+				'prenom'			=>		$last_name
 			);
 			$querycondresults=$this->mdl_register->get_allwhereresults($tablecond,$wherecond);
 			$nbquerycondresults=$querycondresults->num_rows();
