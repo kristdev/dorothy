@@ -35,7 +35,7 @@ class Login extends MX_Controller {
 				$identity= $this->input->post('email');
 				$password= $this->input->post('password');
 				if($this->ion_auth->login($identity, $password, $remember)){
-					$this->session->userdata('id')=$id;
+					// $this->session->userdata('id')=$id;
 					redirect();
 				}else{
 					
