@@ -1,16 +1,12 @@
 {
-    "name": "kristdev/dorothy",
-    "description": "Cameroon Libraries  Universities Searchengine",
+    "name": "SEMPAI/dorothy",
     "require": {
-        "codeigniter/hmvc_xajax_ci": "dev-master",
-        "phpmailer/phpmailer": "dev-master"
+        "ghunti/highcharts-php": "dev-master"
     },
-    "license": "MTN private license",
     "authors": [
         {
             "name": "kristdev",
-            "email": "info@kristdev.com"
+            "email": "pambeaba@yahoo.fr"
         }
-    ],
-    "minimum-stability": "dev"
+    ]
 }

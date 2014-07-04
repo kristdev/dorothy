@@ -4,12 +4,20 @@
 		"selected_items":
 		[
 			[
-				"array",
-				"array"
+				"load",
+				"load_view	CI - Load View"
 			],
 			[
 				"qu",
-				"queryresults"
+				"querycondresults"
+			],
+			[
+				"table",
+				"tablecond"
+			],
+			[
+				"array",
+				"array"
 			],
 			[
 				"la",
@@ -21,10 +29,6 @@
 			],
 			[
 				"loa",
-				"load_model	CI - Load Model"
-			],
-			[
-				"load",
 				"load_model	CI - Load Model"
 			],
 			[
@@ -247,15 +251,31 @@
 			"file": "application/modules/register/controllers/register.php",
 			"settings":
 			{
-				"buffer_size": 5456,
+				"buffer_size": 6137,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "application/modules/register/models/mdl_register.php",
+			"file": "application/modules/login/controllers/login.php",
 			"settings":
 			{
-				"buffer_size": 4024,
+				"buffer_size": 1037,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/modules/dashboard/controllers/dashboard.php",
+			"settings":
+			{
+				"buffer_size": 625,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/modules/sidebar_menuapp/controllers/sidebar_menuapp.php",
+			"settings":
+			{
+				"buffer_size": 479,
 				"line_ending": "Windows"
 			}
 		},
@@ -279,32 +299,40 @@
 			"file": "application/modules/template/views/myapppage.php",
 			"settings":
 			{
-				"buffer_size": 2273,
+				"buffer_size": 2496,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "application/modules/template/views/registerpage.php",
+			"file": "application/modules/dashboard/views/dashboardpage.php",
 			"settings":
 			{
-				"buffer_size": 10282,
+				"buffer_size": 3567,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/D/UwAmp/www/kdmobil/applications/office/modules/login/controllers/login.php",
+			"file": "application/modules/sidebar_menuapp/views/sidebar_menuappview.php",
 			"settings":
 			{
-				"buffer_size": 4923,
+				"buffer_size": 1470,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/SEMPAI/Downloads/kristdev_dorothy(2).sql",
+			"file": "application/modules/template/views/homepage.php",
 			"settings":
 			{
-				"buffer_size": 54824,
-				"line_ending": "Unix"
+				"buffer_size": 20830,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/modules/login/views/loginview.php",
+			"settings":
+			{
+				"buffer_size": 3241,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -345,30 +373,32 @@
 	},
 	"file_history":
 	[
+		"/D/UwAmp/www/dorothy/assets/bootstrap/dist/css/bootstrap.css",
+		"/D/UwAmp/www/dorothy/application/modules/login/controllers/login.php",
+		"/D/UwAmp/www/dorothy/application/modules/login/views/loginview.php",
+		"/D/UwAmp/www/dorothy/application/modules/template/views/include/menuview.php",
+		"/D/UwAmp/www/kdmobil/applications/office/modules/login/controllers/login.php",
+		"/D/UwAmp/www/dorothy/application/modules/template/views/registerpage.php",
+		"/C/Users/SEMPAI/Downloads/kristdev_dorothy(2).sql",
+		"/D/UwAmp/www/dorothy/dploy.yaml",
 		"/D/UwAmp/www/dorothy/application/config/config.php",
 		"/D/UwAmp/www/dorothy/application/config/database.php",
 		"/D/UwAmp/www/dorothy/index.php",
 		"/D/tutos/DOCS/frameworks/php frameworks/codeigniter/ion auth/CodeIgniter-Ion-Auth-2/sql/ion_auth.sql",
 		"/C/Users/SEMPAI/AppData/Local/Temp/scp26935/public_html/mproject/files/dorothy/application/config/database.php",
 		"/D/UwAmp/www/dorothy/application/modules/register/models/mdl_register.php",
-		"/D/UwAmp/www/dorothy/application/modules/template/views/include/menuview.php",
 		"/D/UwAmp/www/dorothy/application/modules/template/views/include/footerview.php",
 		"/C/Users/SEMPAI/Downloads/kristdev_dorothy.sql",
-		"/D/UwAmp/www/dorothy/dploy.yaml",
-		"/D/UwAmp/www/dorothy/application/modules/login/controllers/login.php",
 		"/D/tutos/DOCS/frameworks/php frameworks/codeigniter/ion auth/CodeIgniter-Ion-Auth-2/controllers/auth.php",
 		"/D/UwAmp/www/dorothy/application/config/ion_auth.php",
 		"/D/UwAmp/www/dorothy/application/modules/register/controllers/register.php",
 		"/D/UwAmp/www/dorothy/application/modules/login/models/ion_auth_register.php",
-		"/D/UwAmp/www/dorothy/application/modules/login/views/loginview.php",
-		"/D/UwAmp/www/dorothy/application/modules/template/views/registerpage.php",
 		"/D/UwAmp/www/dorothy/application/modules/tagscloud/controllers/tagscloud.php",
 		"/D/UwAmp/www/dorothy/application/modules/tagscloud/views/tagscloudview.php",
 		"/D/UwAmp/www/dorothy/assets/css/mystylesheet.css",
 		"/D/UwAmp/www/dorothy/assets/css/scss/mystylesheet.scss",
 		"/C/Users/SEMPAI/AppData/Local/Temp/scp11460/public_html/mproject/files/dorothy/application/modules/template/views/homepage.php",
 		"/D/UwAmp/www/dorothy/assets/bootstrap-select/bootstrap-select.min.js",
-		"/D/UwAmp/www/dorothy/assets/bootstrap/dist/css/bootstrap.css",
 		"/C/Users/SEMPAI/AppData/Local/Temp/scp42814/public_html/infos.html",
 		"/C/Users/SEMPAI/AppData/Local/Temp/scp13776/public_html/index.html",
 		"/D/UwAmp/www/dorothy/application/modules/template/views/test.php",
@@ -470,9 +500,7 @@
 		"/C/wamp/www/kdmobil/application/frontend/modules/pricing/controllers/pricing.php",
 		"/C/wamp/www/kdmobil/application/frontend/modules/topmenu/views/topmenupage.php",
 		"/C/wamp/www/kdmobil/application/frontend/modules/contact/controllers/contact.php",
-		"/C/wamp/www/kdmobil/application/frontend/modules/contact/views/contactpage.php",
-		"/C/wamp/www/kdmobil/application/frontend/modules/about_faq/views/about_faqpage.php",
-		"/C/wamp/www/kdmobil/application/frontend/modules/footer/views/footerpage.php"
+		"/C/wamp/www/kdmobil/application/frontend/modules/contact/views/contactpage.php"
 	],
 	"find":
 	{
@@ -490,6 +518,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"src",
+			"register",
 			"activation_code",
 			"code",
 			"getMessage()",
@@ -630,7 +660,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -693,15 +723,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5456,
+						"buffer_size": 6137,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2193,
-								2193
+								1634,
+								1523
 							]
 						],
 						"settings":
@@ -710,41 +740,94 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1770.0,
+						"translation.y": 66.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "application/modules/register/models/mdl_register.php",
-					"semi_transient": true,
+					"file": "application/modules/login/controllers/login.php",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4024,
+						"buffer_size": 1037,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1012,
+								1012
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1056.0,
+						"translation.y": 462.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
+					"file": "application/modules/dashboard/controllers/dashboard.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 625,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								365,
+								365
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 66.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "application/modules/sidebar_menuapp/controllers/sidebar_menuapp.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 479,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								476,
+								476
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "/D/tutos/DOCS/frameworks/php frameworks/codeigniter/ion auth/CodeIgniter-Ion-Auth-2/controllers/auth.php",
 					"semi_transient": false,
 					"settings":
@@ -756,8 +839,8 @@
 						"selection":
 						[
 							[
-								10714,
-								11312
+								1698,
+								1698
 							]
 						],
 						"settings":
@@ -766,7 +849,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 8700.0,
+						"translation.y": 1154.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -774,11 +857,11 @@
 			]
 		},
 		{
-			"selected": 4,
+			"selected": 1,
 			"sheets":
 			[
 				{
-					"buffer": 5,
+					"buffer": 7,
 					"file": "application/modules/template/controllers/template.php",
 					"semi_transient": false,
 					"settings":
@@ -799,26 +882,26 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 39.0,
+						"translation.y": 105.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "application/modules/template/views/myapppage.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2273,
+						"buffer_size": 2496,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1325,
-								1325
+								2191,
+								2191
 							]
 						],
 						"settings":
@@ -828,26 +911,114 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 660.0,
+						"translation.y": 1210.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "application/modules/template/views/registerpage.php",
+					"buffer": 9,
+					"file": "application/modules/dashboard/views/dashboardpage.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10282,
+						"buffer_size": 3567,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9311,
-								9311
+								140,
+								140
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "application/modules/sidebar_menuapp/views/sidebar_menuappview.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1470,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								92,
+								92
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "application/modules/template/views/homepage.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20830,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18419,
+								18497
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7451.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "application/modules/login/views/loginview.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3241,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1044,
+								1044
 							]
 						],
 						"settings":
@@ -858,64 +1029,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4246.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/D/UwAmp/www/kdmobil/applications/office/modules/login/controllers/login.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4923,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2629,
-								2645
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1474.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "/C/Users/SEMPAI/Downloads/kristdev_dorothy(2).sql",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 54824,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								52971,
-								52971
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SQL/SQL.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 33550.0,
+						"translation.y": 462.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

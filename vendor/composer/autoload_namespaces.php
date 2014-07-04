@@ -6,5 +6,4 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'codeigniter' => array($vendorDir . '/codeigniter/hmvc_xajax_ci/src'),
 );

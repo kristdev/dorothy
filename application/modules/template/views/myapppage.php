@@ -34,9 +34,14 @@
 
         <hr class="topbar"/>
         
-        <!-- <Include_registerpage> -->
-        <?php echo $this->load->view('registerpage', FALSE); ?>
-        <!-- </Include_registerpage> -->
+        <!-- <Include_adaptativepage> -->
+        <?php 
+            if (isset($module) and $module!="" and isset($view) and $view!=""){
+                $path=$module.'/'.$view;
+                $this->load->view($path);
+            } 
+        ?>
+        <!-- </Include_adaptativepage> -->
 
 <!-- <Module_login> -->
 <?php echo Modules::run('login'); ?>
@@ -50,6 +55,7 @@
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="<?php echo base_url(); ?>assets/jquery/dist/jquery.js"></script>
+<script src="<?php echo base_url(); ?>assets/angular/angular.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/bootstrap/dist/js/bootstrap.js"></script>
 <script src="<?php echo base_url(); ?>assets/dropzone/downloads/dropzone.js"></script>
 

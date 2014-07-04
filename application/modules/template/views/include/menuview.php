@@ -23,9 +23,9 @@
         <div class="collapse navbar-collapse">
 
             <ul class="nav navbar-nav navbar-right visible-xs">
-                <li class="active"><a href="./">Home</a></li>
-                <li><a href="my_account.html">Login</a></li>
-                <li><a href="register.html">Register</a></li>
+                <li class="active"><a href="<?php echo base_url(); ?>">Home</a></li>
+                <li><a href="<?php echo base_url(); ?>login">Login</a></li>
+                <li><a href="<?php echo base_url(); ?>register">Register</a></li>
                 <!-- <li><a href="listings.html">Listings</a></li>
                 <li><a href="account_dashboard.html">My account</a></li>
                 <li><a href="account_ad_create.gif">Post an ad</a></li> -->

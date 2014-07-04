@@ -343,6 +343,7 @@
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="<?php echo base_url(); ?>assets/jquery/dist/jquery.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/angular/angular.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/bootstrap/dist/js/bootstrap.js"></script>
 <script src="<?php echo base_url(); ?>assets/dropzone/downloads/dropzone.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/global.js"></script>
