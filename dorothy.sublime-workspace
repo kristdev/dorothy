@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"on",
+				"onclick	Attr"
+			],
+			[
 				"load",
 				"load_view	CI - Load View"
 			],
@@ -259,7 +263,7 @@
 			"file": "application/modules/login/controllers/login.php",
 			"settings":
 			{
-				"buffer_size": 1037,
+				"buffer_size": 1040,
 				"line_ending": "Windows"
 			}
 		},
@@ -291,7 +295,7 @@
 			"file": "application/modules/template/controllers/template.php",
 			"settings":
 			{
-				"buffer_size": 624,
+				"buffer_size": 1388,
 				"line_ending": "Windows"
 			}
 		},
@@ -323,7 +327,7 @@
 			"file": "application/modules/template/views/homepage.php",
 			"settings":
 			{
-				"buffer_size": 20830,
+				"buffer_size": 20860,
 				"line_ending": "Windows"
 			}
 		},
@@ -331,7 +335,7 @@
 			"file": "application/modules/login/views/loginview.php",
 			"settings":
 			{
-				"buffer_size": 3241,
+				"buffer_size": 3330,
 				"line_ending": "Windows"
 			}
 		}
@@ -660,7 +664,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -712,7 +716,7 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 66.0,
+						"translation.y": 48.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -751,23 +755,24 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1037,
+						"buffer_size": 1040,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1012,
-								1012
+								243,
+								243
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 462.0,
+						"translation.y": 330.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -857,7 +862,7 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -866,15 +871,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 624,
+						"buffer_size": 1388,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								258,
-								258
+								359,
+								359
 							]
 						],
 						"settings":
@@ -882,7 +887,7 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 105.0,
+						"translation.y": 264.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -911,7 +916,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1210.0,
+						"translation.y": 572.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -981,15 +986,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 20830,
+						"buffer_size": 20860,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								18419,
-								18497
+								1497,
+								1497
 							]
 						],
 						"settings":
@@ -999,7 +1004,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 7451.0,
+						"translation.y": 396.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1010,15 +1015,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3241,
+						"buffer_size": 3330,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1044,
-								1044
+								1728,
+								1728
 							]
 						],
 						"settings":
@@ -1029,7 +1034,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 462.0,
+						"translation.y": 660.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

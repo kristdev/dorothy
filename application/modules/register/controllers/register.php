@@ -56,7 +56,7 @@ class Register extends MX_Controller {
 					)
 			);
 
-		$this->form_validation->set_rules($config);
+		$template->form_validation->set_rules($config);
 
 		if($this->form_validation->run()==false){
 			$this->index();

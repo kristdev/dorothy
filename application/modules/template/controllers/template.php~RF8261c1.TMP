@@ -22,12 +22,21 @@ class Template extends MX_Controller {
 						'rules'			=>	'required|xss_clean'					
 					)
 			);
-			// $this->form_validation->set_rules($config);
-			
-	   		$message='
-					<div class="alert alert-success alert-dismissable">
+			$this->form_validation->set_rules($config);
+			if($this->form_validation->run()==false){
+				$message='
+					<div class="alert alert-warning alert-dismissable">
 					  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-					  <strong>Success!</strong> Email ou Password éroné.
+					  <strong>Warning!</strong> Email ou Password éroné.
+					</div>
+				';
+			}else{
+
+			}
+	   		$message='
+					<div class="alert alert-warning alert-dismissable">
+					  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+					  <strong>Warning!</strong> Email ou Password éroné.
 					</div>
 				';
 	  		$objResponse->assign("response","innerHTML",$message);
