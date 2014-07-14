@@ -17,14 +17,14 @@ class Login extends MX_Controller {
        		$config= array(
        			array(
        				'field'			=>	'email',
-					'label'			=>	'Username',
-					'rules'			=>	'required|xss_clean|valid_email'
-   				),
-   				array(
-       				'field'			=>	'password',
-					'label'			=>	'Password',
-					'rules'			=>	'required|xss_clean'
-   				)
+					    'label'			=>	'Username',
+					    'rules'			=>	'required|xss_clean|valid_email'
+   				  ),
+     				array(
+         			'field'			=>	'password',
+  					  'label'			=>	'Password',
+  					  'rules'			=>	'required|xss_clean'
+     				)
    			);
 
    			$this->form_validation->set_rules($config);

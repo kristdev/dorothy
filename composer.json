@@ -1,6 +1,7 @@
 {
     "name": "SEMPAI/dorothy",
     "require": {
+        "phpmailer/phpmailer": "dev-master",
         "ghunti/highcharts-php": "dev-master"
     },
     "authors": [
