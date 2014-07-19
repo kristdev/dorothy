@@ -28,7 +28,6 @@
     <script src="<?php echo base_url(); ?>assets/js/respond.min.js"></script>
     <![endif]-->
 
-    <?php echo $xajax_js; ?>
 </head>
 
 <body class="my_fontbody">

@@ -11,10 +11,8 @@
 
                     <form class="form-vertical" action="<?php echo base_url(); ?>register/create_user" method="Post" enctype="multipart/form-data">
                         <fieldset>
-
                             <div class="row">  
                                 <div class="col-sm-12" >
-
                                     <div class="well">
                                         <div class="form-group">
                                             <label for="first_name">Full name</label>
@@ -28,7 +26,6 @@
                                                     <?php echo form_error('last_name'); ?>
                                                 </div>
                                             </div>
-
                                         </div>
                                         <div class="form-group">
                                             <label for="groupe">Groupe</label>

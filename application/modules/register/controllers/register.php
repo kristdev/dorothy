@@ -6,6 +6,13 @@ class Register extends MX_Controller {
    	public function __construct(){
         parent::__construct();
         // Your own constructor code
+
+        /*// xajax initialisation
+        $this->load->library('xajax');
+  		$this->xajax->register(XAJAX_FUNCTION, 'test');
+  		$this->xajax->processRequest();
+  		// Finxajax initialisation*/
+
 	    $this->load->model('mdl_register');
    	}
 
@@ -24,37 +31,37 @@ class Register extends MX_Controller {
 
 	public function create_user(){
 		$config=array(
-				array(
-						'field'			=>	'first_name',
-						'label'			=>	'First name',
-						'rules'			=>	'required|xss_clean'					
-					),
-				array(
-						'field'			=>	'last_name',
-						'label'			=>	'Last name',
-						'rules'			=>	'required|xss_clean'					
-					),
-				array(
-						'field'			=>	'groupe',
-						'label'			=>	'Groupe',
-						'rules'			=>	'required|xss_clean'					
-					),
-				array(
-						'field'			=>	'email',
-						'label'			=>	'Email',
-						'rules'			=>	'required|xss_clean|valid_email|is_unique[users.email]'					
-					),
-				array(
-						'field'			=>	'password',
-						'label'			=>	'Password',
-						'rules'			=>	'required|xss_clean|min_length[6]|max_length[12]'					
-					),
-				array(
-						'field'			=>	'password1',
-						'label'			=>	'Password Confirmed',
-						'rules'			=>	'required|xss_clean|matches[password]'					
-					)
-			);
+			array(
+					'field'			=>	'first_name',
+					'label'			=>	'First name',
+					'rules'			=>	'required|xss_clean'					
+			),
+			array(
+					'field'			=>	'last_name',
+					'label'			=>	'Last name',
+					'rules'			=>	'required|xss_clean'					
+			),
+			array(
+					'field'			=>	'groupe',
+					'label'			=>	'Groupe',
+					'rules'			=>	'required|xss_clean'					
+			),
+			array(
+					'field'			=>	'email',
+					'label'			=>	'Email',
+					'rules'			=>	'required|xss_clean|valid_email|is_unique[users.email]'					
+			),
+			array(
+					'field'			=>	'password',
+					'label'			=>	'Password',
+					'rules'			=>	'required|xss_clean|min_length[6]|max_length[12]'					
+			),
+			array(
+					'field'			=>	'password1',
+					'label'			=>	'Password Confirmed',
+					'rules'			=>	'required|xss_clean|matches[password]'					
+			)
+		);
 
 		$this->form_validation->set_rules($config);
 
@@ -69,9 +76,9 @@ class Register extends MX_Controller {
 
 			$username=$first_name.' '.$last_name;
 			$additional_data = array(
-								'first_name' => $first_name,
-								'last_name' => $last_name,
-								);
+				'first_name' 	=> 			$first_name,
+				'last_name' 	=> 			$last_name,
+			);
 			switch($groupe){
 				case 'etudiant':
 					$val=5;
@@ -88,7 +95,7 @@ class Register extends MX_Controller {
 			}
 
 			$wherecond=array(
-				'nom'		=>		$first_name,
+				'nom'				=>		$first_name,
 				'prenom'			=>		$last_name
 			);
 			$querycondresults=$this->mdl_register->get_allwhereresults($tablecond,$wherecond);
@@ -157,18 +164,19 @@ class Register extends MX_Controller {
 
 			}
 			
-			$data['module']='register';
-			$data['view']='registerpage';
-			$data['description']='Moteur de recherche destiné aux universités du Cameroun';
-			$data['title']='Dorothy - Crééez un compte';
+			$data['module']			=		'register';
+			$data['view']			=		'registerpage';
+			$data['description']	=		'Moteur de recherche destiné aux universités du Cameroun';
+			$data['title']			=		'Dorothy - Crééez un compte';
+			// $data['xajax_js'] 		= 		$this->xajax->getJavascript(base_url());
+			$data['blek']			=		"Phrase simple";
 			echo Modules::run('template/myapp',$data);
 
 		}
 	}
 
 	//activate the user
-	function confirm_user($id, $code=false)
-	{
+	function confirm_user($id, $code=false){
 		if ($code !== false)
 		{
 			$activation = $this->ion_auth->activate($id, $code);

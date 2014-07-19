@@ -248,6 +248,14 @@
 	"buffers":
 	[
 		{
+			"file": "application/modules/template/controllers/template.php",
+			"settings":
+			{
+				"buffer_size": 756,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "application/modules/login/controllers/login.php",
 			"settings":
 			{
@@ -256,10 +264,26 @@
 			}
 		},
 		{
-			"file": "application/modules/login/views/loginview.php",
+			"file": "application/modules/register/controllers/register.php",
 			"settings":
 			{
-				"buffer_size": 3344,
+				"buffer_size": 6415,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/modules/template/views/myapppage.php",
+			"settings":
+			{
+				"buffer_size": 2559,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/modules/register/views/registerpage.php",
+			"settings":
+			{
+				"buffer_size": 10882,
 				"line_ending": "Windows"
 			}
 		}
@@ -301,6 +325,8 @@
 	},
 	"file_history":
 	[
+		"/C/Users/SEMPAI/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/wamp/www/dorothy/application/modules/register/views/index.html",
 		"/D/wamp/www/kdmobil/applications/onworking/config/config.php",
 		"/D/wamp/www/kdmobil/applications/office/config/config.php",
 		"/D/wamp/www/kdmobil/applications/frontend/config/config.php",
@@ -426,9 +452,7 @@
 		"/C/Users/SEMPAI/Desktop/hosts",
 		"/C/wamp/www/kdmobil/index.php",
 		"/C/wamp/www/kdmobil/application/backend/modules/dashboard/controllers/dashboard.php",
-		"/C/wamp/www/kdmobil/application/backend/config/config.php",
-		"/C/wamp/www/kdmobil/application/backend/modules/dashboard/views/dashboardpage.php",
-		"/C/wamp/www/kdmobil/application/backend/config/autoload.php"
+		"/C/wamp/www/kdmobil/application/backend/config/config.php"
 	],
 	"find":
 	{
@@ -446,6 +470,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"data",
 			"setchar",
 			"src",
 			"register",
@@ -589,11 +614,39 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "application/modules/template/controllers/template.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 756,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								581,
+								583
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 264.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
 					"file": "application/modules/login/controllers/login.php",
 					"semi_transient": false,
 					"settings":
@@ -605,8 +658,8 @@
 						"selection":
 						[
 							[
-								235,
-								244
+								640,
+								640
 							]
 						],
 						"settings":
@@ -620,6 +673,35 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "application/modules/register/controllers/register.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6415,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								343,
+								379
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 71.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		},
@@ -628,20 +710,49 @@
 			"sheets":
 			[
 				{
-					"buffer": 1,
-					"file": "application/modules/login/views/loginview.php",
-					"semi_transient": true,
+					"buffer": 3,
+					"file": "application/modules/template/views/myapppage.php",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3344,
+						"buffer_size": 2559,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								208,
-								208
+								1417,
+								1417
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 594.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "application/modules/register/views/registerpage.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10882,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								249,
+								249
 							]
 						],
 						"settings":
@@ -702,7 +813,7 @@
 	{
 		"height": 64.0
 	},
-	"save_all_on_build": true,
+	"save_all_on_build": false,
 	"select_file":
 	{
 		"height": 0.0,
