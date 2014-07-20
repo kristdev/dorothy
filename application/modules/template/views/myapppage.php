@@ -25,6 +25,10 @@
         <script src="<?php echo base_url(); ?>assets/js/respond.min.js"></script>
         <![endif]--> 
 
+        <!--[if IE]>
+            <link href="bower_components/better-dom/dist/better-dom-legacy.htc" rel="htc"/>
+            <script src="bower_components/better-dom/dist/better-dom-legacy.js"></script>
+        <![endif]-->       
     </head>
 
     <body>
@@ -61,8 +65,11 @@
 
 <!-- Add fancyBox main JS and CSS files -->
 <script src="<?php echo base_url(); ?>assets/js/global.js"></script>
-
-<script src="<?php echo base_url();?>assets/browserstate-ajaxify/ajaxify-html5.js"></script>
+<!-- Better dom -->
+<script src="<?php echo base_url();?>assets/better-dom/dist/better-dom.js"></script>
+<!-- Better ajaxify -->
+<script src="<?php echo base_url();?>assets/better-ajaxify/dist/better-ajaxify.js"></script>
+<script src="<?php echo base_url();?>assets/better-ajaxify/dist/better-ajaxify-pushstate.js"></script>
 
 </body>
 
