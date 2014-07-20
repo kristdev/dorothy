@@ -275,7 +275,7 @@
 			"file": "application/modules/template/views/myapppage.php",
 			"settings":
 			{
-				"buffer_size": 2530,
+				"buffer_size": 3081,
 				"line_ending": "Windows"
 			}
 		},
@@ -291,7 +291,7 @@
 			"file": "application/modules/template/views/homepage.php",
 			"settings":
 			{
-				"buffer_size": 20831,
+				"buffer_size": 21366,
 				"line_ending": "Windows"
 			}
 		}
@@ -333,6 +333,7 @@
 	},
 	"file_history":
 	[
+		"/D/tutos/DIVERS/boostrap admin template/charisma-master/js/charisma.js",
 		"/C/Users/SEMPAI/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/D/wamp/www/dorothy/application/modules/register/views/index.html",
 		"/D/wamp/www/kdmobil/applications/onworking/config/config.php",
@@ -459,8 +460,7 @@
 		"/C/wamp/bin/apache/Apache2.4.4/conf/httpd.conf",
 		"/C/Users/SEMPAI/Desktop/hosts",
 		"/C/wamp/www/kdmobil/index.php",
-		"/C/wamp/www/kdmobil/application/backend/modules/dashboard/controllers/dashboard.php",
-		"/C/wamp/www/kdmobil/application/backend/config/config.php"
+		"/C/wamp/www/kdmobil/application/backend/modules/dashboard/controllers/dashboard.php"
 	],
 	"find":
 	{
@@ -666,8 +666,8 @@
 						"selection":
 						[
 							[
-								1057,
-								1059
+								1038,
+								1038
 							]
 						],
 						"settings":
@@ -677,7 +677,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 468.0,
+						"translation.y": 610.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -706,7 +706,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 335.0,
+						"translation.y": 247.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -714,7 +714,7 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -723,15 +723,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2530,
+						"buffer_size": 3081,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1389,
-								1389
+								2961,
+								3064
 							]
 						],
 						"settings":
@@ -741,7 +741,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 924.0,
+						"translation.y": 1276.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -781,15 +781,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 20831,
+						"buffer_size": 21366,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1472,
-								1472
+								19466,
+								19466
 							]
 						],
 						"settings":
@@ -799,7 +799,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 396.0,
+						"translation.y": 7514.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
