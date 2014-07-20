@@ -28,6 +28,11 @@
     <script src="<?php echo base_url(); ?>assets/js/respond.min.js"></script>
     <![endif]-->
 
+    <!--[if IE]>
+        <link href="bower_components/better-dom/dist/better-dom-legacy.htc" rel="htc"/>
+        <script src="bower_components/better-dom/dist/better-dom-legacy.js"></script>
+    <![endif]-->
+
 </head>
 
 <body class="my_fontbody">
@@ -350,6 +355,11 @@
 <script src="<?php echo base_url(); ?>assets/js/global.js"></script>
 <script src="<?php echo base_url(); ?>assets/bootstrap-select/bootstrap-select.js"></script>
 <script src="<?php echo base_url(); ?>assets/jQCloud/jqcloud/jqcloud-1.0.3.min.js"></script>
+<!-- Better dom -->
+<script src="<?php echo base_url();?>assets/better-dom/dist/better-dom.js"></script>
+<!-- Better ajaxify -->
+<script src="<?php echo base_url();?>assets/better-ajaxify/dist/better-ajaxify.js"></script>
+<script src="<?php echo base_url();?>assets/better-ajaxify/dist/better-ajaxify-hashchange.js"></script>
 
 <script>
    $(window).on('load', function () {
