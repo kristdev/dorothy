@@ -349,6 +349,7 @@
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="<?php echo base_url(); ?>assets/jquery/dist/jquery.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/modernizr/modernizr.js"></script>
 <script src="<?php echo base_url(); ?>assets/jquery-navigate/navigate.js"></script>
 
 <script src="<?php echo base_url(); ?>assets/angular/angular.min.js"></script>
