@@ -58,10 +58,14 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="http://www.jquery-css.com/js/navigate.js" ></script>
+<!-- 
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/modernizr/modernizr.js"></script>
 <script src="<?php echo base_url(); ?>assets/jquery-navigate/navigate.js"></script>
-
+ -->
 <script src="<?php echo base_url(); ?>assets/angular/angular.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/bootstrap/dist/js/bootstrap.js"></script>
 <script src="<?php echo base_url(); ?>assets/dropzone/downloads/dropzone.js"></script>
@@ -69,30 +73,7 @@
 <!-- Add fancyBox main JS and CSS files -->
 <script src="<?php echo base_url(); ?>assets/js/global.js"></script>
 
-<script>
-$(document).ready(function() {
-  //**** OPTIONAL ****
-    // Example of a custom ajax insert function
-    (function($) {
-      $.fn.fadeInsert = function(options) {
-        console.log(options);
-        //the option is an array : {html:the ajax html, scripts: the scripts that already are in the html, customData:any data you associated to this state during navigate} 
-        var that = $(this);
-        that.fadeOut(300, function(){
-          that.html(options.html);
-          that.fadeIn(300, function(){
-            that.trigger({type:"finishrefreshinsert"});
-          });
-        });
-        return this;
-      };
-    })(jQuery); 
-  
-  //THIS IS THE ONLY NEEDED LINE
-  //Just init navigate and any link without target="_blank" will become an ajax link
-  $.navigate.init();
-});  
-</script>
+
 
 </body>
 
