@@ -1,0 +1,14 @@
+{
+  "name": "jquery-navigate",
+  "homepage": "https://github.com/binarymind/jquery-navigate",
+  "_release": "6b632585ec",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "6b632585ecb6ec45055b1a19d6eebe5f0fe098aa"
+  },
+  "_source": "https://github.com/binarymind/jquery-navigate.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/binarymind/jquery-navigate.git",
+  "_direct": true
+}

@@ -65,7 +65,7 @@
 
 <!-- Add fancyBox main JS and CSS files -->
 <script src="<?php echo base_url(); ?>assets/js/global.js"></script>
-<script type="text/javascript" src="http://www.jquery-css.com/js/navigate.js" ></script>
+<script src="<?php echo base_url(); ?>assets/jquery-navigate/navigate.js"></script>
 </body>
 
 </html>

@@ -355,7 +355,7 @@
 <script src="<?php echo base_url(); ?>assets/js/global.js"></script>
 <script src="<?php echo base_url(); ?>assets/bootstrap-select/bootstrap-select.js"></script>
 <script src="<?php echo base_url(); ?>assets/jQCloud/jqcloud/jqcloud-1.0.3.min.js"></script>
-<script type="text/javascript" src="http://www.jquery-css.com/js/navigate.js" ></script>
+<script src="<?php echo base_url(); ?>assets/jquery-navigate/navigate.js"></script>
 
 
 <script>
