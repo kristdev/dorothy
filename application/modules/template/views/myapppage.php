@@ -67,6 +67,12 @@
 
 <!-- Add fancyBox main JS and CSS files -->
 <script src="<?php echo base_url(); ?>assets/js/global.js"></script>
+<script>
+$(document).ready(function() {
+    $.navigate.init();
+});
+</script>
+
 </body>
 
 </html>

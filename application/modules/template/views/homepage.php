@@ -358,6 +358,12 @@
 <script src="<?php echo base_url(); ?>assets/bootstrap-select/bootstrap-select.js"></script>
 <script src="<?php echo base_url(); ?>assets/jQCloud/jqcloud/jqcloud-1.0.3.min.js"></script>
 
+<script>
+$(document).ready(function() {
+    $.navigate.init();
+});
+</script>
+
 
 <script>
    $(window).on('load', function () {
