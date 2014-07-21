@@ -58,7 +58,7 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="<?php echo base_url(); ?>assets/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/modernizr/modernizr.js"></script>
 <script src="<?php echo base_url(); ?>assets/jquery-navigate/navigate.js"></script>
 
