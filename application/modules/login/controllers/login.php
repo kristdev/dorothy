@@ -51,8 +51,7 @@ class Login extends MX_Controller {
 					$current_url=current_url();
           $current_module=$this->uri->segment(1);
           if($current_module==0) $current_module="home";
-          $data['login_error']='Erreur d\'autentification, veuillez tenter une nouvelle authentification';
-          echo Modules::run($current_module,$data);
+          echo Modules::run($current_module.'/check_loginerror',$data);
 				}
 			}
        }

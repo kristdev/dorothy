@@ -21,5 +21,19 @@ class Home extends MX_Controller {
 			echo Modules::run('template/home',$data);
 		}
 	}
+
+	public function check_loginerror(){
+			if($this->session->userdata('id')){
+			redirect(base_url().'myapp');
+		}
+		else{
+			$data['module']='home';
+			$data['view']='homeview';
+			$data['description']='Moteur de recherche destiné aux universités du Cameroun';
+			$data['title']='Dorothy - Cameroon Universities Library Search engine';
+          	$data['login_error']='Erreur d\'autentification, veuillez tenter une nouvelle authentification';
+			echo Modules::run('template/home',$data);
+		}
+	}
 }
 ?>
