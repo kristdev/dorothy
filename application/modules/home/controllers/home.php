@@ -9,7 +9,7 @@ class Home extends MX_Controller {
 	    // Your own constructor code
 	}
 
-	public function index($check_loginerror){
+	public function index($check_loginerror==null){
 			if($this->session->userdata('id')){
 			redirect(base_url().'myapp');
 		}
