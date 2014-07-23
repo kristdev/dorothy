@@ -38,7 +38,7 @@
         ?>
         <div class="alert alert-danger alert-dismissable">
             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-            <strong>Warning!</strong> Better check yourself, you're not looking too good.
+            <strong>Warning!</strong> <?php echo $login_error; ?>
         </div>
 
         <?php
