@@ -51,7 +51,7 @@ class Login extends MX_Controller {
 					$current_url=current_url();
           $current_module=$this->uri->segment(1);
           if($current_module==0) $current_module="home";
-          $check_loginerror='true';
+          $data['check_loginerror']='true';
           echo Modules::run($current_module, $check_loginerror);
 				}
 			}

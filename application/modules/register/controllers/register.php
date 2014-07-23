@@ -10,7 +10,7 @@ class Register extends MX_Controller {
 	    $this->load->model('mdl_register');
    	}
 
-   	public function index(){
+   	public function index($data){
    		if($this->ion_auth->logged_in()){
 			redirect(base_url());
 		}
