@@ -7,12 +7,6 @@ class Register extends MX_Controller {
         parent::__construct();
         // Your own constructor code
 
-        /*// xajax initialisation
-        $this->load->library('xajax');
-  		$this->xajax->register(XAJAX_FUNCTION, 'test');
-  		$this->xajax->processRequest();
-  		// Finxajax initialisation*/
-
 	    $this->load->model('mdl_register');
    	}
 

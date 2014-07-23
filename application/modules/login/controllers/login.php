@@ -34,9 +34,19 @@ class Login extends MX_Controller {
 			}else{
 				$identity= $this->input->post('email');
 				$password= $this->input->post('password');
+        $remember=true;
 				if($this->ion_auth->login($identity, $password, $remember)){
-					// $this->session->userdata('id')=$id;
-					redirect();
+					$user = $this->ion_auth->user()->row();
+          $session_data=array(
+            'id'                => $user->id,
+            'email'             => $user->email,
+            'first_name'        => $user->first_name,
+            'last_name'         => $user->last_name,
+            'group'             => $user->group
+          );
+          $this->session->set_userdata($session_data);
+
+					redirect(base_url().'dashboard');
 				}else{
 					
 				}
