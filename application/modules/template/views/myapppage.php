@@ -32,6 +32,20 @@
     </head>
 
     <body>
+        <!-- <erreur_login> -->
+        <?php
+        if(isset($login_error)){
+        ?>
+        <div class="alert alert-danger alert-dismissable">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            <strong>Warning!</strong> Better check yourself, you're not looking too good.
+        </div>
+
+        <?php
+        }
+        ?>
+        <!-- </erreur_login> -->
+
         <!-- <Vue_menu> -->
         <?php echo $this->load->view('./include/menuview', FALSE); ?>
         <!-- </Vue_menu> -->

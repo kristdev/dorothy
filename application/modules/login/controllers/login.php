@@ -48,7 +48,11 @@ class Login extends MX_Controller {
 
 					redirect(base_url().'dashboard');
 				}else{
-					
+					$current_url=current_url();
+          $current_module=$this->uri->segment(1);
+          if($current_module==0) $current_module="home";
+          $data['login_error']='Erreur d\'autentification, veuillez tenter une nouvelle authentification';
+          echo Modules::run($current_module,$data);
 				}
 			}
        }
