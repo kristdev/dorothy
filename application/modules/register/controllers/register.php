@@ -19,21 +19,9 @@ class Register extends MX_Controller {
 			$data['view']='registerpage';
 			$data['description']='Moteur de recherche destiné aux universités du Cameroun';
 			$data['title']='Dorothy - Crééez un compte';
-			echo Modules::run('template/myapp',$data);
-		}
-	}
-
-	public function check_loginerror(){
-		if($this->ion_auth->logged_in()){
-			redirect(base_url());
-		}
-		else{
-			$data['module']='register';
-			$data['view']='registerpage';
-			$data['description']='Moteur de recherche destiné aux universités du Cameroun';
-			$data['title']='Dorothy - Crééez un compte';
-			$data['login_error']='Erreur d\'autentification, veuillez tenter une nouvelle authentification';
-			
+			if(isset($check_loginerror) and $check_loginerror==true){
+				$data['login_error']='Erreur d\'autentification, veuillez tenter une nouvelle authentification';
+			}
 			echo Modules::run('template/myapp',$data);
 		}
 	}
