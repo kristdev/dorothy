@@ -7,19 +7,19 @@ class Dashboard extends MX_Controller {
    {
         parent::__construct();
         // Your own constructor code
-        $this->load->model('mdl_register');
+        $this->load->model('mdl_dashboard');
    }
 
     public function index(){
    		if($this->ion_auth->logged_in()){
-			redirect(base_url());
-		}
-		else{
 			$data['module']='dashboard';
 			$data['view']='dashboardpage';
 			$data['description']='Moteur de recherche destiné aux universités du Cameroun';
 			$data['title']='Dorothy - Dashboard';
 			echo Modules::run('template/myapp',$data);
+		}
+		else{
+			redirect(base_url());
 		}
 	}
 }

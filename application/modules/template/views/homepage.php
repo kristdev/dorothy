@@ -5,11 +5,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="<?php echo $description; ?>">
     <meta name="author" content="">
     <link rel="shortcut icon" href="../assets/ico/favicon.html">
 
-    <title>Dorothy - Cameroon Lib Univerities Search engine</title>
+    <title><?php echo $title; ?></title>
 
     <!-- Bootstrap core CSS -->
     <link id="switch_style" href="<?php echo base_url(); ?>assets/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
@@ -37,7 +37,19 @@
 
 <body class="my_fontbody">
 
-        
+    <!-- <erreur_login> -->
+        <?php
+        if(isset($login_error)){
+        ?>
+        <div class="alert alert-danger alert-dismissable">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            <strong>Warning!</strong> <?php echo $login_error; ?>
+        </div>
+
+        <?php
+        }
+        ?>
+    <!-- </erreur_login> -->   
     <div id="fb-root"></div>
     <script>
         (function(d, s, id) {
@@ -111,22 +123,22 @@
                         <a href="listings.html" class="btn btn-primary search-btn">Search</a>
                     </div>
                 </div>                
-                <br />
+                <!-- <br />
                 <br />
                 <div class="row">
                     <div class="col-sm-12" style="text-align: center">
-
+                
                         <div id="quotes">
                             <div class="text-item" style="display: none;">Boom! <strong>Vince</strong> just sold a <strong>Washing Machine</strong> in <strong>Sheffield</strong></div>
                             <div class="text-item" style="display: none;"><strong>Julia</strong> is availiable for <strong>home cleaning</strong> in <strong>Manchester</strong></div>
                             <div class="text-item" style="display: none;">Success! <strong>Paul</strong> has just sold a <strong>Mercedes-Benz E-class</strong> in <strong>Liverpool</strong></div>
                             <div class="text-item" style="display: none;">Hey, <strong>Uber</strong> has a <strong>job opening</strong> in <strong>London</strong></div>
                         </div>
-
-
-
+                
+                
+                
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

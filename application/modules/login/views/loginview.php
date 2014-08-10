@@ -8,7 +8,7 @@
             <div class="modal-body">
                 <p>If you have an account with us, please enter your details below.</p>
 
-                <form method="POST" name="login" onsubmit="xajax_test_function(xajax.getFormValues('login')); return false;" id="user-login-form" class="form ajax" data-replace=".error-message p">
+                <form action="<?php echo base_url(); ?>login/signin" method="POST" name="login" id="user-login-form" class="form ajax" data-replace=".error-message p">
 
                     <div class="form-group">
                         <input placeholder="Your username/email" class="form-control" name="email" id="email" type="text" required>           

@@ -10,7 +10,7 @@ class Register extends MX_Controller {
 	    $this->load->model('mdl_register');
    	}
 
-   	public function index($data){
+   	public function index(){
    		if($this->ion_auth->logged_in()){
 			redirect(base_url());
 		}
@@ -19,9 +19,20 @@ class Register extends MX_Controller {
 			$data['view']='registerpage';
 			$data['description']='Moteur de recherche destiné aux universités du Cameroun';
 			$data['title']='Dorothy - Crééez un compte';
-			if(isset($check_loginerror) and $check_loginerror==true){
-				$data['login_error']='Erreur d\'autentification, veuillez tenter une nouvelle authentification';
-			}
+			echo Modules::run('template/myapp',$data);
+		}
+	}
+
+	public function check_loginerror($status_loginerror){
+		if($this->ion_auth->logged_in()){
+			redirect(base_url());
+		}
+		else{
+			$data['module']='register';
+			$data['view']='registerpage';
+			$data['description']='Moteur de recherche destiné aux universités du Cameroun';
+			$data['title']='Dorothy - Crééez un compte';
+			$data['login_error']="Erreur de Connexion";
 			echo Modules::run('template/myapp',$data);
 		}
 	}

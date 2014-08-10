@@ -6,7 +6,7 @@ class Sidebar_menuapp extends MX_Controller {
    	public function __construct(){
 	    parent::__construct();
 	    // Your own constructor code
-	    $this->load->model('mdl_register');
+	    $this->load->model('mdl_sidebar_menuapp');
    	}
 
    	public function index(){

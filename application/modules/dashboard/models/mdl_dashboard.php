@@ -3,7 +3,7 @@
 
 if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Samplemodelcode extends CI_Model {
+class Mdl_dashboard extends CI_Model {
 
     // Fonction constructeur, instanciant la classe
 	function __construct()
